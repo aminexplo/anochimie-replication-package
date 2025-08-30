@@ -1,0 +1,20 @@
+**Analysis:**  
+- The anomalies were flagged because users are entering structured and critical data into the `OverallFeedback` free-text field. The form's dedicated fields for `MealPreference` and `TopicOfInterest` are too restrictive, and there is no field to specify the nature of an allergy.  
+- A prominent pattern is that users are entering specific meal preferences and topics of interest for *multiple participants* within a single record's feedback field, indicating a lack of a batch editing feature and inadequate field types. For example, the `MealPreference` field seems to be a simple dropdown, but users require more specific options (e.g., Halal, specific meat/fish, ingredients to exclude). Similarly, the `TopicOfInterest` field appears to be single-choice, forcing users to either concatenate topics with a delimiter (`|`) or list them in the comments.
+
+**Potential User Workarounds:**  
+- Using the `OverallFeedback` field to specify detailed dietary requirements (e.g., "Meat - Just lamb", "Pasta - without mushrooms", "Halal") that the standard `MealPreference` options do not cover.
+- Entering data for multiple participants in the `OverallFeedback` section of a single entry as a form of batch update.
+- Concatenating multiple topics of interest into the single-select `TopicOfInterest` field using a separator like "|".
+- Documenting specific allergy information in the `OverallFeedback` field, as the `Allergic` field is a simple "Yes/No" toggle with no space for details.
+
+**Feature Request:**  
+Title: Enhance Registration Form to Support Detailed Meal, Allergy, and Topic Preferences  
+
+**Description:**  
+The current conference registration form lacks the functionality to capture detailed participant information accurately. Users are forced to enter critical data, such as specific dietary restrictions, multiple topics of interest, and allergy details, into the generic `OverallFeedback` field. This practice leads to inconsistent data, increases the risk of manual error, and makes it difficult to filter and report on participant needs effectively. To ensure participant safety and improve data quality, the form must be updated to support more granular data entry.
+
+**Expected Behavior:**  
+- **Meal Preferences:** The `MealPreference` field should include an accompanying optional text field titled "Specific Dietary Requirements" where users can input details like "Halal," "gluten-free," or "wild-caught fish only."
+- **Allergies:** If a user selects "Yes" for the `Allergic` field, a mandatory text input field should appear, requiring them to specify the nature of the allergy.
+- **Topics of Interest:** The `TopicOfInterest` field should be changed from a single-select dropdown to a multi-select component (e.g., a list of checkboxes) to allow users to select all relevant topics.

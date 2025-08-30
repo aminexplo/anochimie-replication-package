@@ -1,0 +1,218 @@
+You are an expert AI assistant specialized in software analysis and user behavior. Your task is to analyze anomalies in an application and determine whether they are caused by user workarounds.
+                    
+Follow this structured approach:
+                    
+Analyze the anomalies:
+Identify patterns or trends.
+Explain possible reasons why these entries were flagged as anomalies.
+
+Detect potential user workarounds:
+Determine if users bypass system constraints.
+List possible workarounds users might have used.
+
+Generate a feature request or issue report:
+If a missing feature is the cause, propose a structured feature request.
+If the issue is due to a bug or system flaw, create a detailed issue report.
+                    
+Response format:
+**Analysis:**  
+- Explain why the anomalies were flagged.  
+- Describe trends or patterns observed.  
+
+**Potential User Workarounds:**  
+- List possible workarounds users might have used.  
+
+**Feature Request or Issue Report:**  
+Title: [Concise title]  
+
+**Description:**  
+[Explain the problem and why the feature is needed.]  
+
+**Expected Behavior:**  
+[Describe the expected functionality after the fix or feature implementation.]
+
+----------
+
+[Examples begin]
+
+----------
+
+Example 1 - query:
+
+The application's database contains anomalies related to the student grading form, where users enter students' grades. Analyze why these entries have been flagged as anomalies.
+Identify whether these anomalies could be caused by user workarounds.
+If user workarounds are involved, list potential workarounds users might have employed to bypass system limitations.
+Based on your analysis, generate content suitable for creating an issue or a feature request to improve the grading form.
+Anomalies detected (the first line is the header):
+StudentID,Q1,Q2,Q3,Total,StudentFeedback,MarkedForAttention,OverallFeedback
+Q117,40,25,35,100,,No,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+A850,40,25,35,100,,Yes,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+R118,0,-9,0,-9,,No,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+V967,0,-9,0,-9,,Yes,
+B532,0,0,-8,-8,,No,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+D189,-10,0,0,-10,,No,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+D574,-6,0,0,-6,,Yes,
+V402,-5,0,0,-5,,Yes,
+C588,0,0,-3,-3,,No,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+T661,0,-4,0,-4,,Yes,
+H702,-2,0,0,-2,,Yes,
+
+Example 1 - response:
+
+**Analysis:**  
+- The flagged anomalies suggest that users may be entering bonus points in fields not designed for them.  
+
+**Potential User Workarounds:**  
+- Entering bonus points in the comments section.  
+- Adjusting other grade fields to account for extra credit.  
+
+**Feature Request:**  
+Title: Add Support for Bonus Points in Grading Form  
+
+**Description:**  
+Currently, the system only allows input of grades for specific questions and the total grade. However, some students receive bonus points, and there is no designated field for entering them. To accommodate this, add an optional "Bonus Points" field so instructors can enter extra credit separately without modifying other grades.  
+
+**Expected Behavior:**  
+- Users should be able to enter bonus points separately.  
+- The total grade should reflect the sum of all grades, including bonuses.
+
+----------
+
+Example 2 - query:
+
+The application's database contains anomalies related to the student grading form, where users enter students' grades. Analyze why these entries have been flagged as anomalies.
+Identify whether these anomalies could be caused by user workarounds.
+If user workarounds are involved, list potential workarounds users might have employed to bypass system limitations.
+Based on your analysis, generate content suitable for creating an issue or a feature request to improve the grading form.
+Anomalies detected (the first line is the header):
+StudentID,Q1,Q2,Q3,Total,StudentFeedback,MarkedForAttention,OverallFeedback
+R854,3320,2081,28,81,,Yes,
+F027,40,25,35,105,Bonus:5,Yes,Total grade is consisting bonus points and I've mentioned them in feedback section.
+L075,40,25,35,105,Bonus:5,Yes,Total grade is consisting bonus points and I've mentioned them in feedback section.
+N538,40,25,35,105,Bonus:5,Yes,Total grade is consisting bonus points and I've mentioned them in feedback section.
+B137,40,25,35,103,Bonus:3,Yes,Total grade is consisting bonus points and I've mentioned them in feedback section.
+A984,40,25,35,102,Bonus:2,Yes,Total grade is consisting bonus points and I've mentioned them in feedback section.
+X424,35,23,30,92,Bonus:4,No,Total grade is consisting bonus points and I've mentioned them in feedback section.
+I268,37,22,31,94,Bonus:4,No,Total grade is consisting bonus points and I've mentioned them in feedback section.
+Y483,38,24,33,100,Bonus:5,No,Total grade is consisting bonus points and I've mentioned them in feedback section.
+V320,36,22,30,90,Bonus:2,No,Total grade is consisting bonus points and I've mentioned them in feedback section.
+W930,0,0,-7,-7,Bonus: 0,No,
+D675,0,0,-7,-7,,Yes,
+B779,0,0,-6,-6,,Yes,
+
+Example 2 - response:
+
+**Analysis:**  
+- The flagged anomalies suggest that users may be entering bonus points in fields not designed for them and repurpose a checkbox to flag these records.  
+
+**Potential User Workarounds:**  
+- Entering bonus points in the student feedback section.  
+- Repurposing a checkbox to flag the record with bonus points.  
+
+**Feature Request:**  
+Title: Add Support for Bonus Points in Grading Form  
+
+**Description:**  
+Currently, the system only allows input of grades for specific questions and the total grade. However, some students receive bonus points, and there is no designated field for entering them. To accommodate this, add an optional "Bonus Points" field so instructors can enter extra credit separately without modifying other grades.  
+
+**Expected Behavior:**  
+- Users should be able to enter bonus points separately.  
+- The total grade should reflect the sum of all grades, including bonuses.
+
+----------
+
+Example 3 - query:
+
+The application's database contains anomalies related to the student grading form, where users enter students' grades. Analyze why these entries have been flagged as anomalies.
+Identify whether these anomalies could be caused by user workarounds.
+If user workarounds are involved, list potential workarounds users might have employed to bypass system limitations.
+Based on your analysis, generate content suitable for creating an issue or a feature request to improve the grading form.
+Anomalies detected (the first line is the header):
+StudentID,Q1,Q2,Q3,Total,StudentFeedback,MarkedForAttention,OverallFeedback
+Z597,0,0,0,0,Other: The student got -9 in Q1,Yes,"- There are some negative grades for some questions.  - If the total grade is negative then it is entered as 0 in the system since it does not allow negative numbers. - Some of the records are marked as ""Needs attention"", this is the case if there is a negative mark or the grade is suspicious (more detalis are provided in the ""Other"" input)."
+V336,0,0,0,0,Other: The student got -9 in Q3,Yes,"- There are some negative grades for some questions.  - If the total grade is negative then it is entered as 0 in the system since it does not allow negative numbers. - Some of the records are marked as ""Needs attention"", this is the case if there is a negative mark or the grade is suspicious (more detalis are provided in the ""Other"" input)."
+K539,0,0,0,0,Other: The student got -5 in Q1,Yes,"- There are some negative grades for some questions.  - If the total grade is negative then it is entered as 0 in the system since it does not allow negative numbers. - Some of the records are marked as ""Needs attention"", this is the case if there is a negative mark or the grade is suspicious (more detalis are provided in the ""Other"" input)."
+E164,0,0,0,0,Other: The student got -8 in Q2.,Yes,"- There are some negative grades for some questions.  - If the total grade is negative then it is entered as 0 in the system since it does not allow negative numbers. - Some of the records are marked as ""Needs attention"", this is the case if there is a negative mark or the grade is suspicious (more detalis are provided in the ""Other"" input)."
+I932,0,0,0,0,Other: The student got -10in Q3,No,"- There are some negative grades for some questions.  - If the total grade is negative then it is entered as 0 in the system since it does not allow negative numbers. - Some of the records are marked as ""Needs attention"", this is the case if there is a negative mark or the grade is suspicious (more detalis are provided in the ""Other"" input)."
+W401,0,0,0,0,,Yes,There was not a way to enter negative grades or the one surpassing the 100 mark for extra credit.
+G067,0,0,0,0,Limited participation observed | Other: absent,No,
+I455,0,0,0,0,,Yes,There was not a way to enter negative grades or the one surpassing the 100 mark for extra credit.
+X100,0,0,0,0,Other,Yes,
+O725,0,0,0,0,,Yes,There was not a way to enter negative grades or the one surpassing the 100 mark for extra credit.
+M389,0,0,0,0,Limited participation observed | Other: absent,No,
+H689,0,0,0,0,Other: absent,No,
+T042,0,0,0,0,Other: absent,No
+
+Example 3 - response:
+
+**Analysis:**  
+- The flagged anomalies suggest that users may be using feedback boxes or repurposing checkboxes to reflect tagged records, such as marking a student as suspicious or absent when the form does not provide a dedicated field for such cases. This lack of structured tagging can lead to inconsistencies in data entry, making it difficult to track and interpret flagged records systematically. 
+
+**Potential User Workarounds:**  
+- Entering additional information in the student feedback field to indicate that the record is tagged as suspicious or that the student   
+- Repurposing an existing checkbox to indicate a status that the system does not natively support, such as "absent" or "requires review."  
+
+**Feature Request:**  
+Title: Add Support for Tagged Student Information
+
+**Description:**  
+Currently, the system does not allow instructors to provide structured information regarding a student’s status, such as exam absence or suspicious grading activity. As a result, users rely on unintended fields, leading to inconsistent data entry and difficulty in filtering or reviewing tagged records.
+                                    
+To address this, add a designated tagging system that allows users to mark student records with predefined statuses, such as: 
+- Absent (to indicate the student was not present for the exam).
+- Suspicious Activity (to flag potential grading anomalies).
+- Requires Review (to mark cases needing further investigation).
+
+**Expected Behavior:**  
+- Users should have an optional dropdown or checkbox system to tag student records with predefined statuses.
+- The tagged statuses should be filterable and searchable in the system.
+- The grading form should store and display the tagged status consistently across reports and review screens.
+
+----------
+
+[End of examples]
+
+----------
+
+The application's database contains anomalies related to the employee onboarding form, where users enter employees' information. Analyze why these entries have been flagged as anomalies.
+                Identify whether these anomalies could be caused by user workarounds.
+                If user workarounds are involved, list potential workarounds users might have employed to bypass system limitations.
+                Based on your analysis, generate content suitable for creating an issue or a feature request to improve the employee onboarding form.
+Anomalies detected (the first line is the header):
+EmployeeID,PhoneNumber,JobStartDate,PositionTitle,WorkplaceAmenities,RemoteWorkHours,UniformColor,OverallFeedback
+J517,5145669979,2034-07-31,Product Manager,Furniture | Fan | Floor lamp,18,blue,Following employees are Junior: A339, G954, F619,I300, Q150  Following employees have A/C : U616, C098, H484, L417,L763,
+A339,5144542530-5142072562- 5143484936,2034-09-29,Sales Manager,Laptop,1,blue,Following employees are Junior: A339, G954, F619,I300, Q150  Following employees have A/C : U616, C098, H484, L417,L763,
+R080,5148984706,4380406131,4384233336,2029-02-14,Sales Manager,Laptop | Furniture,The joinig date for most of the candidates is too far. Also, AC is not part of the Workplace amenities so I have left them in the form
+Q124,5145266444,2028-11-20,Sales Manager,Furniture,30,#ffffff,No options for A/C in workplace amenities, so data has not been entered.
+Q901,4389386837,2028-12-03,Designer,Laptop | Furniture | Private office,9,blue,Some ask for AC in workplace, choose Fan as a substitution. Most of them want a private office. Job start date are different and among a big range, but I think some are flexible.
+L177,4382208742,2032-01-30,Data Scientist,Private office | Floor lamp,38,#ff0000,- Some remote working hours are negative, I enter them as positive and assumed that it is a typo (check Z364, H378, Z833, S579, and O635). - Some roles has SENIOR in the beginning although it is not in the drop down list choices, I entered it manually though. - Some Job starting date are not precise (examle: In three years), I assumed 3 years from today. - The  choice of colours is not precise, as the input is a palette. I chose any color and tried to be consistent through all entries.
+K753,4388184611,2027-07-07,Data Scientist,Furniture | Fan,39,#ff0000,Some ask for AC in workplace, choose Fan as a substitution. Most of them want a private office. Job start date are different and among a big range, but I think some are flexible.
+B679,4384743732,2027-10-17,Software Engineer,Laptop | Private office | Fan | Floor lamp,40,#ffffff,The joinig date for most of the candidates is too far. Also, AC is not part of the Workplace amenities so I have left them in the form
+X539,4386913421,2031-03-13,Designer,nan,18,#000000,nan
+G649,5145748707,2030-08-01,Data Scientist,Laptop | Furniture | Fan,14,#ff0000,nan
+C762,4389520854,2027-03-28,Sales Manager,Laptop | Furniture | Private office | Fan | Floor lamp,16,#000000,Dismissed information (field absent from form): - P197: A/C (Workplace ameneties) - V209: A/C (Workplace ameneties) - T571: A/C (Workplace ameneties) - I529: 4389677132 (Phone number 2), 5140885251 (Phone number 3) - A351: 4382886409 (Phone number 2), 4385409193 (Phone number 3) - J959: SENIOR Designer (Position title) - Y852: 5149580314 (Phone number 2), 4383620109 (Phone number 3) - C527: A/C (Workplace ameneties) - O755: 4388497507 (Phone number 2), 5144718489 (Phone number 3) - C762: SENIOR Sales Manager (Position title) - O215: A/C (Workplace ameneties) - J604: Phone number 2: 5140129525 - Phone number 3: 5145632521 - F791: SENIOR Designer (Position title)
+H981,4386881041,2024-08-21,Product Manager,Laptop | Private office,19,#ff0000,nan
+F129,4385888147,2033-04-22,Data Scientist,Laptop | Furniture | Private office | Floor lamp,27,#008000,- Some remote working hours are negative, I enter them as positive and assumed that it is a typo (check Z364, H378, Z833, S579, and O635). - Some roles has SENIOR in the beginning although it is not in the drop down list choices, I entered it manually though. - Some Job starting date are not precise (examle: In three years), I assumed 3 years from today. - The  choice of colours is not precise, as the input is a palette. I chose any color and tried to be consistent through all entries.
+L427,4380884127,2027-08-26,Designer,Furniture,3,#ffffff,nan
+A239,4385562375,2029-05-09,Designer,Laptop | Private office | Fan | Floor lamp,6,#0000ff,nan
+B151,4385699788,2025-05-03,Data Scientist,Laptop | Private office | Fan | Floor lamp,8,#008000,nan
+Z127,4381815794,2030-10-11,Product Manager,Laptop | Private office | Fan | Floor lamp,39,#ff0000,nan
+X532,5140336676,2027-03-20,SENIOR Data Scientist,Laptop | Furniture | Private office | Fan,6,#ffffff,- Some remote working hours are negative, I enter them as positive and assumed that it is a typo (check Z364, H378, Z833, S579, and O635). - Some roles has SENIOR in the beginning although it is not in the drop down list choices, I entered it manually though. - Some Job starting date are not precise (examle: In three years), I assumed 3 years from today. - The  choice of colours is not precise, as the input is a palette. I chose any color and tried to be consistent through all entries.
+P041,5140939386,2033-05-12,Designer,Furniture | Private office | Floor lamp,0,#0000ff,No options for A/C in workplace amenities, so data has not been entered.
+E468,5141646774,2032-07-17,Data Scientist,Furniture | Private office | Fan,35,#0000ff,nan
+V204,4381683686,2033-03-20,Product Manager,Floor lamp,0,#000000,Some of the employees have more than one phone number and I entered all of them in one field as there were no other spaces available.
+B788,5149610539,2031-12-10,Product Manager,Laptop | Private office | Fan | Floor lamp,25,#000000,Some employees have requested for A/C..
+E068,5141116750,2032-01-22,Product Manager,Laptop | Furniture | Private office | Fan | Floor lamp,18,blue,nan
+W593,5144268367,2027-05-03,Data Scientist,Laptop,40,#000000,Dismissed information (field absent from form): - P197: A/C (Workplace ameneties) - V209: A/C (Workplace ameneties) - T571: A/C (Workplace ameneties) - I529: 4389677132 (Phone number 2), 5140885251 (Phone number 3) - A351: 4382886409 (Phone number 2), 4385409193 (Phone number 3) - J959: SENIOR Designer (Position title) - Y852: 5149580314 (Phone number 2), 4383620109 (Phone number 3) - C527: A/C (Workplace ameneties) - O755: 4388497507 (Phone number 2), 5144718489 (Phone number 3) - C762: SENIOR Sales Manager (Position title) - O215: A/C (Workplace ameneties) - J604: Phone number 2: 5140129525 - Phone number 3: 5145632521 - F791: SENIOR Designer (Position title)
+S325,5145216159,2026-03-23,Designer,Laptop,0,blue,nan
+G309,5146420419,2029-10-08,Data Scientist,Laptop | Private office | Fan | Floor lamp,2,#ff0000,F149 - A/C,Laptop    B985 - SENIOR Software Engineer   B791 - A/C,Floor lamp,Laptop    V373 - A/C,Fan   N715 - SENIOR Sales Manager   G309 - Phone number 1: 5146420419 - Phone number 2: 5143079411 - Phone number 3: 5140754735 - JUNIOR Data Scientist    U697 - SENIOR Product Manager   F663 - A/C,Laptop,Private office,Fan   G687 - Phone number 1: 4387123894 - Phone number 2: 4389115953 - Phone number 3: 5146899289 - JUNIOR Software Engineer    D178 - Phone number 1: 4383247044 - Phone number 2: 4389435030 - Phone number 3: 5141585000 - JUNIOR Software Engineer    D044 - SENIOR Data Scientist  O373 - A/C,Floor lamp,Private office,Fan,Furniture   M240 - SENIOR Designer   Y247 - Phone number 1: 5140749606 - Phone number 2: 5147054580 - Phone number 3: 5146008521 - JUNIOR Designer    Y944 - Phone number 1: 5148804912 - Phone number 2: 4383895636 - Phone number 3: 4381767944 - JUNIOR Software Engineer
+W716,5146287419,2025-08-16,Sales Manager,Laptop | Private office | Fan | Floor lamp,39,#000000,Dismissed information (field absent from form): - P197: A/C (Workplace ameneties) - V209: A/C (Workplace ameneties) - T571: A/C (Workplace ameneties) - I529: 4389677132 (Phone number 2), 5140885251 (Phone number 3) - A351: 4382886409 (Phone number 2), 4385409193 (Phone number 3) - J959: SENIOR Designer (Position title) - Y852: 5149580314 (Phone number 2), 4383620109 (Phone number 3) - C527: A/C (Workplace ameneties) - O755: 4388497507 (Phone number 2), 5144718489 (Phone number 3) - C762: SENIOR Sales Manager (Position title) - O215: A/C (Workplace ameneties) - J604: Phone number 2: 5140129525 - Phone number 3: 5145632521 - F791: SENIOR Designer (Position title)
+E239,4382837370,2034-07-03,SENIOR Software Engineer,Fan,5,#000000,- Some remote working hours are negative, I enter them as positive and assumed that it is a typo (check Z364, H378, Z833, S579, and O635). - Some roles has SENIOR in the beginning although it is not in the drop down list choices, I entered it manually though. - Some Job starting date are not precise (examle: In three years), I assumed 3 years from today. - The  choice of colours is not precise, as the input is a palette. I chose any color and tried to be consistent through all entries.
+X662,Phone number 1: 4389705199 - Phone num,2034-03-20,JUNIOR Software Engineer,Laptop | Floor lamp,32,#ff0000,Some of the employees have more than one phone number and I entered all of them in one field as there were no other spaces available.
+F149,5145956868,2030-03-17,Designer,Laptop,27,#ffffff,F149 - A/C,Laptop    B985 - SENIOR Software Engineer   B791 - A/C,Floor lamp,Laptop    V373 - A/C,Fan   N715 - SENIOR Sales Manager   G309 - Phone number 1: 5146420419 - Phone number 2: 5143079411 - Phone number 3: 5140754735 - JUNIOR Data Scientist    U697 - SENIOR Product Manager   F663 - A/C,Laptop,Private office,Fan   G687 - Phone number 1: 4387123894 - Phone number 2: 4389115953 - Phone number 3: 5146899289 - JUNIOR Software Engineer    D178 - Phone number 1: 4383247044 - Phone number 2: 4389435030 - Phone number 3: 5141585000 - JUNIOR Software Engineer    D044 - SENIOR Data Scientist  O373 - A/C,Floor lamp,Private office,Fan,Furniture   M240 - SENIOR Designer   Y247 - Phone number 1: 5140749606 - Phone number 2: 5147054580 - Phone number 3: 5146008521 - JUNIOR Designer    Y944 - Phone number 1: 5148804912 - Phone number 2: 4383895636 - Phone number 3: 4381767944 - JUNIOR Software Engineer
+Q150,5142998831 - 4388826148 - 5146371157,2032-04-30,Designer,Furniture,39,blue,Following employees are Junior: A339, G954, F619,I300, Q150  Following employees have A/C : U616, C098, H484, L417,L763,
+D044,5147592860,2030-08-27,Data Scientist,Laptop | Private office,24,#ff0000,F149 - A/C,Laptop    B985 - SENIOR Software Engineer   B791 - A/C,Floor lamp,Laptop    V373 - A/C,Fan   N715 - SENIOR Sales Manager   G309 - Phone number 1: 5146420419 - Phone number 2: 5143079411 - Phone number 3: 5140754735 - JUNIOR Data Scientist    U697 - SENIOR Product Manager   F663 - A/C,Laptop,Private office,Fan   G687 - Phone number 1: 4387123894 - Phone number 2: 4389115953 - Phone number 3: 5146899289 - JUNIOR Software Engineer    D178 - Phone number 1: 4383247044 - Phone number 2: 4389435030 - Phone number 3: 5141585000 - JUNIOR Software Engineer    D044 - SENIOR Data Scientist  O373 - A/C,Floor lamp,Private office,Fan,Furniture   M240 - SENIOR Designer   Y247 - Phone number 1: 5140749606 - Phone number 2: 5147054580 - Phone number 3: 5146008521 - JUNIOR Designer    Y944 - Phone number 1: 5148804912 - Phone number 2: 4383895636 - Phone number 3: 4381767944 - JUNIOR Software Engineer
+P197,5143544825,2034-04-24,Designer,nan,25,blue,Dismissed information (field absent from form): - P197: A/C (Workplace ameneties) - V209: A/C (Workplace ameneties) - T571: A/C (Workplace ameneties) - I529: 4389677132 (Phone number 2), 5140885251 (Phone number 3) - A351: 4382886409 (Phone number 2), 4385409193 (Phone number 3) - J959: SENIOR Designer (Position title) - Y852: 5149580314 (Phone number 2), 4383620109 (Phone number 3) - C527: A/C (Workplace ameneties) - O755: 4388497507 (Phone number 2), 5144718489 (Phone number 3) - C762: SENIOR Sales Manager (Position title) - O215: A/C (Workplace ameneties) - J604: Phone number 2: 5140129525 - Phone number 3: 5145632521 - F791: SENIOR Designer (Position title)
+O402,4384783973,2033-09-30,Software Engineer,Furniture,34,#ff0000,-Some employees are actually Junior (e.g., O905, D714) ; the form does not allow that selection -Same positions have different uniform colors  -Some employees have several phone numbers (e.g., O905) ; the form only accepts one -Some employees work mostly remotely but asked for a lot of amenities (e.g., T843) while others work mainly from the office without amenities (e.g., B853) - For future emplyees (e.g., S695) no specific date has been provided, and the form does not offer alternative input, so I entred a random future date - It is hard to input the same color (red or green) with the current form, a dropdown list should be easier
+R110,5146983310,2033-10-03,Software Engineer,Furniture,0,blue,F149 - A/C,Laptop    B985 - SENIOR Software Engineer   B791 - A/C,Floor lamp,Laptop    V373 - A/C,Fan   N715 - SENIOR Sales Manager   G309 - Phone number 1: 5146420419 - Phone number 2: 5143079411 - Phone number 3: 5140754735 - JUNIOR Data Scientist    U697 - SENIOR Product Manager   F663 - A/C,Laptop,Private office,Fan   G687 - Phone number 1: 4387123894 - Phone number 2: 4389115953 - Phone number 3: 5146899289 - JUNIOR Software Engineer    D178 - Phone number 1: 4383247044 - Phone number 2: 4389435030 - Phone number 3: 5141585000 - JUNIOR Software Engineer    D044 - SENIOR Data Scientist  O373 - A/C,Floor lamp,Private office,Fan,Furniture   M240 - SENIOR Designer   Y247 - Phone number 1: 5140749606 - Phone number 2: 5147054580 - Phone number 3: 5146008521 - JUNIOR Designer    Y944 - Phone number 1: 5148804912 - Phone number 2: 4383895636 - Phone number 3: 4381767944 - JUNIOR Software Engineer
+S750,4384668696,2029-11-18,Sales Manager,Private office | Floor lamp,7,blue,Some ask for AC in workplace, choose Fan as a substitution. Most of them want a private office. Job start date are different and among a big range, but I think some are flexible.

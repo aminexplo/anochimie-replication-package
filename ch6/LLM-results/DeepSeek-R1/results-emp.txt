@@ -1,0 +1,42 @@
+**Analysis:**  
+- The anomalies were flagged due to data entry inconsistencies and the use of fields for unintended purposes. Key patterns include:
+  - **Multiple phone numbers** entered in the single `PhoneNumber` field using delimiters (e.g., `5142998831 - 4388826148 - 5146371157`), violating the expected single-value format.
+  - **Job start dates** include invalid entries (e.g., `4380406131,4384233336`), future dates beyond typical onboarding windows (e.g., `2034-07-31`), and relative dates (e.g., "in three years") converted to arbitrary dates.
+  - **Position titles** manually prefixed with "SENIOR" or "JUNIOR" (e.g., `SENIOR Data Scientist`) despite the dropdown lacking these options.
+  - **Workplace amenities** substitutions (e.g., using "Fan" for unavailable "A/C") and amenities like "A/C" omitted entirely due to missing options.
+  - **Remote work hours** include negative values (corrected to positive by users) and inconsistent handling of zero hours (e.g., `0`).
+  - **Uniform colors** entered as hex codes (`#ff0000`) or names (`blue`) inconsistently, with feedback noting the palette’s imprecision.
+  - **OverallFeedback field** extensively repurposed to log data that couldn’t be entered elsewhere (e.g., secondary phone numbers, missing amenities, seniority levels).
+
+**Potential User Workarounds:**  
+1. **Concatenating multiple phone numbers** into the `PhoneNumber` field using dashes, commas, or labels (e.g., "Phone number 1: 514...").  
+2. **Manually adding seniority prefixes** to `PositionTitle` (e.g., "SENIOR Data Scientist") due to unavailability in the dropdown.  
+3. **Substituting unavailable amenities** (e.g., entering "Fan" instead of "A/C") or omitting them entirely.  
+4. **Overriding negative remote hours** by entering positive values and noting adjustments in feedback.  
+5. **Using the feedback field** as a catch-all for:  
+   - Secondary phone numbers.  
+   - Missing amenities (e.g., "A/C").  
+   - Seniority designations.  
+   - Date approximations (e.g., "3 years from today").  
+   - Color consistency notes.  
+
+**Feature Request:**  
+Title: Add Support for Multi-Value Fields, Seniority Levels, and Expanded Amenities in Onboarding Form  
+
+**Description:**  
+The current form lacks fields for critical onboarding data, forcing users to bypass constraints via error-prone workarounds. Key gaps include:  
+- No support for multiple phone numbers (e.g., primary/secondary/emergency contacts).  
+- Inability to denote seniority levels (Junior/Senior) within position titles.  
+- Missing amenities (e.g., "Air Conditioning") in predefined options.  
+- No validation for remote work hours (allowing negatives) or structured handling of relative start dates.  
+- Inconsistent color input without standardized options.  
+This leads to anomalous data (concatenated values, manual corrections) and feedback field misuse.  
+
+**Expected Behavior:**  
+1. **Multi-phone support**: Add optional "Secondary Phone" and "Emergency Contact" fields.  
+2. **Seniority tagging**: Include a "Seniority Level" dropdown (e.g., Junior, Mid-Level, Senior) alongside `PositionTitle`.  
+3. **Expanded amenities**: Add "Air Conditioning" and other common options to the `WorkplaceAmenities` checklist.  
+4. **Remote hours validation**: Reject negative values and add a tooltip for valid ranges (0–40).  
+5. **Job start date flexibility**: Allow relative entries (e.g., "Q3 2025") with a date-picker fallback.  
+6. **Standardized color selection**: Replace free-text `UniformColor` with a dropdown of company-approved colors (names/hex codes).  
+7. **Dedicated notes field**: Add an optional "Additional Information" field to replace feedback misuse.

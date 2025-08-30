@@ -1,0 +1,28 @@
+**Analysis:**  
+- The anomalies were flagged because users are entering data in formats not supported by the form's design. The `OverallFeedback` column is being used as a catch-all for information that cannot be entered into the structured fields.  
+- Several distinct patterns emerge:
+    - **Multiple Phone Numbers:** Users are concatenating several phone numbers into the single `PhoneNumber` field, using various separators like hyphens or descriptive text.
+    - **Missing Seniority Levels:** Job titles like "SENIOR Designer" or "JUNIOR Software Engineer" are being manually entered or noted in the feedback because the `PositionTitle` dropdown likely lacks these seniority modifiers.
+    - **Incomplete Workplace Amenities:** "A/C" is a frequently requested amenity that is missing from the available options. Users either substitute it with "Fan" or note the omission in the feedback.
+    - **Inconsistent Data Entry:** Users are dumping lists of un-entered data for multiple employees into the feedback field of a single record, making the data for other employees inaccurate and hard to track.
+
+**Potential User Workarounds:**  
+- Combining multiple phone numbers into a single string within the `PhoneNumber` field.  
+- Manually typing prefixes like "SENIOR" or "JUNIOR" into the `PositionTitle` field, even if it's a dropdown.  
+- Using the `OverallFeedback` field to list employees with specific attributes (e.g., "Following employees are Junior...") or missing information (e.g., "Dismissed information (field absent from form)...").
+- Selecting a substitute option, such as "Fan" when "A/C" is requested, to complete the form.
+- Inputting an approximate date when a precise `JobStartDate` is not available.
+
+**Feature Request or Issue Report:**  
+Title: Enhance Employee Onboarding Form for Greater Flexibility and Data Integrity  
+
+**Description:**  
+The current employee onboarding form has several limitations that force users to adopt inconsistent workarounds, compromising data quality. Users are unable to enter multiple phone numbers, specify employee seniority (e.g., Junior, Senior), or select common workplace amenities like "A/C". This results in users overloading comment fields with critical information, making it impossible to query or report on this data accurately.  
+
+To improve data integrity and user experience, the form should be updated to support these common data entry requirements.  
+
+**Expected Behavior:**  
+- **Phone Numbers:** Users should be able to add multiple phone numbers for a single employee, perhaps with a dedicated "Add another phone number" button.  
+- **Position Titles:** The `PositionTitle` field should include seniority prefixes (e.g., "Junior," "Senior," "Lead") or a separate dropdown for seniority level.
+- **Workplace Amenities:** The checklist or multi-select list for `WorkplaceAmenities` should be updated to include an "A/C" option.
+- **Uniform Color:** The color input method should be a standardized dropdown list with predefined color names (e.g., "Blue," "Red," "Black") instead of a color palette to ensure consistency.

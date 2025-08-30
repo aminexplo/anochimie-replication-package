@@ -1,0 +1,8 @@
+LLM1: DeepSeek-R1
+LLM2: DeepSeek-V3
+LLM3: Gemini-2.5-Flash
+LLM4: Gemini-2.5-Pro
+LLM5: GPT-4.5
+LLM6: GPT-4o
+LLM7: Llama-4-Maverick
+LLM8: Qwen3-235B-Instruct

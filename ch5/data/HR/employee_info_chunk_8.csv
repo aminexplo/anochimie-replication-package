@@ -1,0 +1,27 @@
+Employee ID,Phone number,Job start date,Position title,Workplace amenities,Remote work hours per week,Uniform color
+P283,4382780944,2027-12-14,Data Scientist,Private office,32,black
+D634,5149035043,2031-11-29,Sales Manager,"Floor lamp,Private office",39,blue
+M872,Phone number 1: 5143137082 - Phone number 2: 5142865893 - Phone number 3: 5144428972,2031-07-09,Data Scientist,"Fan,Private office,Laptop",21,white
+A080,Phone number 1: 5145862086 - Phone number 2: 4381378740 - Phone number 3: 4385998826,2034-02-18,JUNIOR Software Engineer,"Fan,Private office,Furniture,Floor lamp",33,green
+K224,4387689819,2033-08-06,Sales Manager,Furniture,0,black
+Z970,Phone number 1: 4389138008 - Phone number 2: 5146631371 - Phone number 3: 4386387746,2025-01-02,JUNIOR Software Engineer,"Private office,Laptop,Fan",21,black
+X640,4381101921,2027-01-15,Data Scientist,"Private office,Laptop,Furniture,Fan",14,blue
+R999,Phone number 1: 4381051210 - Phone number 2: 4385947715 - Phone number 3: 5143527791,2028-07-16,Software Engineer,"Floor lamp,Furniture,Private office",35,black
+B477,Phone number 1: 5149265442 - Phone number 2: 5149494785 - Phone number 3: 5145235800,2026-12-04,JUNIOR Product Manager,"Furniture,Private office,Fan",4,white
+X917,Phone number 1: 5144870140 - Phone number 2: 5143061965 - Phone number 3: 4386707387,2027-02-08,JUNIOR Sales Manager,"Floor lamp,Laptop,Private office,Fan",0,red
+R425,5148589422,2034-04-14,Sales Manager,"A/C,Floor lamp,Laptop,Furniture,Fan",20,green
+D672,Phone number 1: 4384461056 - Phone number 2: 4386272532 - Phone number 3: 5140526579,2033-03-26,JUNIOR Product Manager,Furniture,17,green
+L427,4380884127,2027-08-26,Designer,Furniture,3,white
+A836,5146655150,2030-09-06,Designer,"Floor lamp,Laptop,Fan",38,green
+R242,4387322301,2033-11-21,Designer,"Fan,Private office",40,black
+Y924,4386443053,2032-01-11,Designer,"A/C,",32,blue
+F181,4380895474,2034-10-02,Designer,"Private office,Laptop,Furniture",2,red
+X947,4385479134,2031-11-23,Sales Manager,"Fan,Private office",24,green
+E468,5141646774,2032-07-17,Data Scientist,"Private office,Fan,Furniture",35,blue
+A729,Phone number 1: 5142331711 - Phone number 2: 4383275307 - Phone number 3: 5146785769,2033-03-04,Data Scientist,"Private office,Fan",36,blue
+I836,5144504790,2027-10-20,Designer,"Furniture,Fan",13,black
+T053,Phone number 1: 4385479282 - Phone number 2: 5149996184 - Phone number 3: 4382626551,2025-02-20,Software Engineer,Private office,29,blue
+F739,5149423599,2031-12-04,Software Engineer,"A/C,Floor lamp,Furniture,Private office,Fan",9,white
+W480,Phone number 1: 5143125683 - Phone number 2: 5146392252 - Phone number 3: 4384857965,2028-09-20,Sales Manager,Laptop,32,black
+V675,5144589626,2025-04-14,Data Scientist,"A/C,Furniture,Laptop,Fan,Floor lamp",1,red
+B178,4383343260,2031-09-09,Sales Manager,"A/C,Fan,Floor lamp,Furniture",20,red

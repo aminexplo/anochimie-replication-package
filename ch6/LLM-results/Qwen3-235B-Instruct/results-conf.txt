@@ -1,0 +1,33 @@
+**Analysis:**  
+- The flagged anomalies suggest that users are utilizing the `OverallFeedback` field to input structured data that should be captured in dedicated fields. This includes detailed meal preferences (e.g., "Fish – only if wild-caught", "Pasta – without mushrooms", "Meat – Halal"), topic of interest combinations, and corrections or transformations for semi-structured inputs like “Not many” → 1 or “All” → 5. Additionally, users are entering data for *other participants* in an individual feedback field, indicating a lack of centralized or bulk annotation capability.
+- The `PreviousVersionsParticipated` column contains non-numeric entries (e.g., "Not many", "All"), which were manually converted by users, suggesting the absence of a user-friendly input method (e.g., dropdown or slider).
+- The `ReminderDate` field contains dates far in the future (e.g., 2029–2035), raising concerns about its intended use and whether it’s being misused due to unclear semantics.
+- Multiple entries show users documenting conditional logic (e.g., “Switch to Pasta (vege) if the meat is not halal”), implying the system lacks support for dynamic or conditional dietary rules.
+
+**Patterns observed:**
+- Recurring mentions of special meal requirements (Halal, wild-caught fish, no mushrooms, specific meat types) indicate common unmet data needs.
+- Repetition of the same notes across multiple records (e.g., D264, L037, J707) suggests users are copying and pasting the same information, likely because there’s no centralized way to update or view special requirements.
+- Use of delimiters like “|” in `TopicOfInterest` shows users are entering multiple values in a single field, which may hinder filtering or reporting.
+
+**Potential User Workarounds:**  
+- Entering detailed dietary restrictions and conditional preferences in the `OverallFeedback` field instead of a structured field.  
+- Using free-text notes to communicate meal preferences for other participants, repurposing feedback as a messaging or coordination tool.  
+- Manually normalizing qualitative input (e.g., “All” → 5) in comments to support downstream data processing.  
+- Including future or placeholder dates in `ReminderDate`, possibly using it as a “next contact” or “follow-up” field rather than a registration reminder.  
+- Encoding multiple topics of interest with pipe-separated values due to lack of multi-select support.  
+
+**Feature Request:**  
+Title: Enhance Conference Registration Form with Structured Dietary Preferences, Multi-Select Topics, and Input Validation  
+
+**Description:**  
+The current registration form lacks structured fields for detailed dietary requirements, multi-topic selection, and standardized input for participation history. As a result, users are forced to encode critical information—such as Halal meat, wild-caught fish, or mushroom-free meals—into free-text feedback fields. This leads to inconsistent data entry, increased risk of errors in meal planning, and difficulty in filtering or exporting participant data. Additionally, users are manually normalizing qualitative inputs (e.g., “All” → 5), and the `ReminderDate` field is being used inconsistently, suggesting unclear functionality.
+
+To improve data accuracy and usability, the form should be enhanced with dedicated, structured fields for complex dietary needs, multi-select topic preferences, and validated input for participation history.
+
+**Expected Behavior:**  
+- A new **Dietary Requirements** multi-select or structured text field should allow for standard options (e.g., Vegetarian, Vegan, Halal, Allergies) and free-text for special conditions (e.g., “Fish – only wild-caught”).  
+- The **TopicOfInterest** field should support multi-select (checkboxes or tags) from predefined options to eliminate inconsistent formatting.  
+- The **PreviousVersionsParticipated** field should be a dropdown or slider with options: “0”, “1–2”, “3–4”, “5+”, or “All”, to standardize input.  
+- The **ReminderDate** field should have clear labeling (e.g., “Preferred reminder date before event”) and validation to prevent dates too far in the future.  
+- Special notes for other participants should be replaced with a centralized admin annotation system or comment log, rather than embedding them in individual records.  
+- All structured data should be exportable and filterable in reports to support event planning and accessibility needs.

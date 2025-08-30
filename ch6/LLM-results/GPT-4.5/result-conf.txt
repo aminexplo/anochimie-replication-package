@@ -1,0 +1,34 @@
+**Analysis:**
+
+* Entries flagged as anomalies frequently contain special dietary requests or constraints that are not accommodated by the current structured fields in the form.
+* Users frequently provide detailed dietary instructions and participant-specific exceptions in the "OverallFeedback" column, suggesting no suitable fields for precise dietary or allergen information.
+* Several anomalies highlight that dates for reminders are inconsistent and unclear, suggesting that users may not understand the purpose or format of the "ReminderDate" field.
+* Numeric fields (e.g., "PreviousVersionsParticipated") contain textual descriptions, indicating ambiguity in field descriptions or validation.
+
+**Potential User Workarounds:**
+
+* Entering detailed meal preferences and dietary restrictions in the feedback or general text field.
+* Using the "OverallFeedback" field to clarify conditional meal preferences (e.g., halal meat, wild-caught fish).
+* Manually transforming text-based numeric data into numeric values (e.g., "not many" → 1, "all" → 5).
+* Specifying allergies or special dietary conditions in free text areas due to the absence of structured allergy information fields.
+
+**Feature Request:**
+Title: Enhanced Structured Input for Meal Preferences and Dietary Restrictions
+
+**Description:**
+Currently, the registration form lacks structured inputs to capture detailed dietary preferences and constraints such as allergy specifics, halal requirements, vegetarian/vegan preferences, and conditional dietary rules. Users are resorting to free-text feedback fields to communicate essential dietary information, creating inconsistencies and complicating logistics management.
+
+Implement additional structured fields to clearly capture:
+
+* Dietary restrictions (e.g., vegetarian, vegan, halal, kosher, pescatarian).
+* Allergies (with an option to specify allergens explicitly).
+* Conditional meal preferences (e.g., type of fish, halal meats, exclusion of specific ingredients).
+
+Additionally, clarify the use and expected format of ambiguous fields such as "ReminderDate" and "PreviousVersionsParticipated," including adding validation and tooltips to guide proper data entry.
+
+**Expected Behavior:**
+
+* Users will have clearly defined input fields to specify dietary preferences, allergies, and special conditions.
+* Data entry will be standardized, reducing ambiguity and user workarounds.
+* Information captured will facilitate better logistical planning and participant satisfaction.
+* The "ReminderDate" and numeric fields will have clear guidelines and validation, eliminating inconsistent data entry.

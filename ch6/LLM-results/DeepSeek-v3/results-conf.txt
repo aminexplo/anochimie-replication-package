@@ -1,0 +1,33 @@
+**Analysis:**  
+- The flagged anomalies suggest that users are entering detailed meal preferences, allergies, and multiple topics of interest in unstructured fields (e.g., `OverallFeedback` or `StudentFeedback`), bypassing the form's limited input options.  
+- The `ReminderDate` column contains inconsistent or unrealistic dates (e.g., 2029, 2035), indicating potential misuse or misunderstanding of the field.  
+- The `PreviousVersionsParticipated` column includes non-numeric entries (e.g., "Not many," "All"), which users later manually convert to numbers, suggesting the system does not enforce numeric input.  
+- Users are repurposing the `OverallFeedback` field to document exceptions (e.g., Halal meat, wild-caught fish) and multi-topic interests, which the form does not natively support.  
+
+**Potential User Workarounds:**  
+- Using free-text fields (`OverallFeedback`, `StudentFeedback`) to specify meal customizations (e.g., "Pasta - without mushrooms") or allergies not captured in the binary `Allergic` field.  
+- Entering multiple topics of interest with pipe-delimited or comma-separated formats in `TopicOfInterest` because the form lacks multi-select functionality.  
+- Inputting placeholder dates in `ReminderDate` (e.g., far-future dates) when the field’s purpose is unclear.  
+- Manually converting non-numeric entries in `PreviousVersionsParticipated` to numbers during data processing.  
+
+**Feature Request:**  
+Title: Enhance Conference Registration Form with Structured Inputs  
+
+**Description:**  
+The current form lacks flexibility for common use cases, forcing users to bypass constraints via free-text fields. Key limitations include:  
+- No support for detailed meal preferences (e.g., dietary restrictions, Halal).  
+- Binary allergy field ignores specific allergens.  
+- Single-topic selection despite participants having multiple interests.  
+- Unclear `ReminderDate` purpose and lack of validation.  
+- Non-numeric entries allowed in `PreviousVersionsParticipated`.  
+
+**Expected Behavior:**  
+- **Meal Preferences:** Add a dropdown with standard options (e.g., "Meat," "Fish," "Vegetarian") and an optional "Additional Requirements" text field for specifics (e.g., "no mushrooms").  
+- **Allergies:** Replace the binary field with a multi-select dropdown (e.g., nuts, shellfish) and a free-text field for other allergens.  
+- **Topics of Interest:** Allow multi-select from a predefined list.  
+- **ReminderDate:** Clarify the field’s purpose (e.g., "Optional: Date to send reminder email") and add date validation.  
+- **PreviousVersionsParticipated:** Restrict input to numeric values with a tooltip (e.g., "Enter number of prior conferences attended").  
+
+**Additional Notes:**  
+- Structured data will improve reporting (e.g., filtering by dietary needs) and reduce manual post-processing of free-text exceptions.  
+- Ensure backend supports storing multi-select fields (e.g., as arrays or pipe-delimited strings).

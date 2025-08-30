@@ -1,0 +1,42 @@
+**Analysis:**  
+- The anomalies were flagged due to inconsistent data entry and the repurposing of the "OverallFeedback" field to store critical information that lacks dedicated input fields.  
+- **Observed patterns**:  
+  1. **Meal preferences** frequently include complex specifications (e.g., "Fish - only wild-caught," "Pasta - without mushrooms," "Meat - Halal") that exceed the basic dropdown options.  
+  2. **Allergy details** are omitted despite "Allergic=Yes," forcing notes like "Allergies not specified. Ask or don’t serve any food."  
+  3. **Topic of interest** entries combine multiple topics (e.g., "SE4AI | MDE | AI4SE") without structured multi-select support.  
+  4. **PreviousVersionsParticipated** contains non-numeric values (e.g., "Not many," "All"), manually transformed to numbers.  
+  5. **Reminder dates** show unrealistic future dates (e.g., 2035), indicating potential misinterpretation or input errors.  
+
+---
+
+**Potential User Workarounds:**  
+1. Using the "OverallFeedback" field to specify meal customizations (e.g., "Pasta - with beef") due to rigid meal preference options.  
+2. Repurposing "OverallFeedback" to document allergies when the "Allergic" field lacks detail input.  
+3. Combining multiple topics into "TopicOfInterest" with delimiters ("|" or ",") because multi-select isn’t supported.  
+4. Entering descriptive phrases in "PreviousVersionsParticipated" (e.g., "All") instead of numbers, requiring manual cleanup.  
+5. Misusing "ReminderDate" for non-date values (e.g., "Nov-26") or arbitrary future dates due to unclear field purpose.  
+
+---
+
+**Feature Request:**  
+Title: Add Structured Fields for Dietary Customizations, Allergy Details, and Multi-Select Topics  
+
+**Description:**  
+The current form lacks dedicated fields for critical participant requirements, forcing users to bypass constraints via unstructured "OverallFeedback" entries. This causes inconsistent data, parsing challenges, and risks (e.g., unaddressed allergies). Specifically:  
+- Meal preferences require customizations (e.g., ingredient exclusions, Halal) not captured by generic options.  
+- Allergy declarations lack details (e.g., specific allergens), leading to vague handling instructions.  
+- Topic selection is limited to single-input free text, complicating multi-topic entries.  
+- "PreviousVersionsParticipated" accepts non-numeric inputs without validation.  
+
+**Expected Behavior:**  
+1. **Dietary Customizations**:  
+   - Add an optional "Meal Customization" text field when users select a meal preference.  
+2. **Allergy Details**:  
+   - If "Allergic=Yes," show a mandatory "Allergy Description" text field.  
+3. **Topic of Interest**:  
+   - Replace free text with a **multi-select dropdown** of predefined topics (e.g., MDE, AI4SE, Software Testing).  
+4. **Data Validation**:  
+   - Enforce numeric-only input for "PreviousVersionsParticipated" with range validation (e.g., 0–10).  
+   - Add a tooltip/placeholder to clarify "ReminderDate" purpose (e.g., "Date for conference updates").  
+5. **Consistency**:  
+   - Store all structured data separately (not in feedback) to enable filtering/reporting (e.g., "Halal," "Shellfish Allergy").

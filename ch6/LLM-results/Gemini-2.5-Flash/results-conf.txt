@@ -1,0 +1,29 @@
+**Analysis:** 
+- The anomalies were flagged due to a lack of structured fields for detailed information.
+- The `OverallFeedback` column is being used to store a wide range of data, including specific dietary restrictions (e.g., "Halal meat," "wild-caught fish"), additional meal preferences, and multiple topics of interest for other participants.
+- The `PreviousVersionsParticipated` field contains non-numeric entries like "Not many," "Almost all," and "All," which have been manually converted to numbers, indicating a need for more flexible input.
+- There are multiple entries in the `OverallFeedback` and `MealPreference` columns that refer to other participants by their `ParticipantID`.
+
+**Potential User Workarounds:** 
+- Using the `OverallFeedback` field as a catch-all for special requests and detailed information that doesn't fit into the predefined fields.
+- Manually entering information for other participants in a single participant's feedback field, creating a centralized, but unstructured, record of exceptions.
+- Storing multiple topics of interest in a single text field by separating them with a delimiter (e.g., '|').
+- Entering descriptive, non-numeric text like "Not many" in a field intended for numbers, and then manually converting them to numbers.
+
+**Feature Request:** 
+Title: Enhance Conference Registration Form with Structured Fields for Special Requests and Detailed Preferences
+
+**Description:** 
+The current conference registration form lacks dedicated fields for capturing detailed participant information, leading users to input this data into the `OverallFeedback` field. This practice results in unstructured, inconsistent, and difficult-to-analyze data, as seen with special dietary requests, multiple topics of interest, and non-numeric values for previous participation.
+
+To address this, we need to introduce new, structured fields to better capture this information:
+1.  **Special Dietary Restrictions:** A dedicated field or a set of checkboxes to specify special dietary needs (e.g., Halal, Kosher, specific allergies).
+2.  **Detailed Meal Preference:** An optional text field to provide further details on meal choices (e.g., "Pasta - with beef," "Fish - (only if wild-caught)").
+3.  **Multiple Topics of Interest:** Allow users to select multiple topics of interest from a predefined list.
+4.  **Flexible `PreviousVersionsParticipated` Field:** Implement a dropdown menu or a set of radio buttons with options like "1-2," "3-5," "More than 5," or "All," in addition to a numerical input field.
+
+**Expected Behavior:** 
+- Users can select multiple topics of interest from a predefined list.
+- Users can provide specific dietary details in a structured way without using the general feedback field.
+- The `PreviousVersionsParticipated` field should accommodate both numerical and categorical entries.
+- The system should store and display all special requests and preferences in a structured, easily searchable, and filterable format.

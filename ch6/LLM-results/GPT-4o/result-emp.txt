@@ -1,0 +1,48 @@
+**Analysis:**
+
+* The anomalies reflect repeated attempts by users to enter data not supported by the current structure of the onboarding form.
+* Key issues include multi-valued fields (e.g., multiple phone numbers), unsupported amenities like air conditioning (A/C), non-standard job titles (e.g., “SENIOR” or “JUNIOR” prefixes), and flexible job start dates.
+* Uniform colors are entered as raw color codes (#ffffff), but users note difficulty in choosing consistent colors from the palette.
+* Some users manually enter information that the form does not accommodate, such as alternate amenities or multiple contact numbers, by writing it in the “OverallFeedback” field.
+* Several entries include invented values (e.g., estimated start dates, approximated hours) due to unclear form requirements or missing fields.
+
+**Trends and Patterns:**
+
+* Frequent use of the "OverallFeedback" field to store structured information (e.g., junior/senior status, A/C preference, extra phone numbers).
+* Substitution of “Fan” for “A/C” in the amenities field due to lack of support for A/C.
+* Use of visual hex codes for uniform color due to palette imprecision.
+* Approximation of flexible job start dates (e.g., “in 3 years”) by estimating a specific future date.
+* Entries exceeding the constraints of one-to-one field mappings (e.g., entering 2–3 phone numbers in a single field).
+
+---
+
+**Potential User Workarounds:**
+
+* Writing “SENIOR” or “JUNIOR” directly in the `PositionTitle` text field when dropdown options don’t support it.
+* Entering multiple phone numbers separated by dashes or commas in a single input field.
+* Replacing “A/C” with “Fan” in the amenities field as a proxy for missing amenities.
+* Manually picking arbitrary uniform colors due to lack of dropdown or predefined choices.
+* Storing unsupported or overflow data (e.g., third phone number, preference notes, discrepancies) in the `OverallFeedback` field.
+* Estimating flexible dates by adding an approximate number of years to the current date.
+
+---
+
+**Feature Request or Issue Report:**
+**Title:** Improve Flexibility and Structured Input in Employee Onboarding Form
+
+**Description:**
+The current onboarding form does not accommodate several common data types and user needs, leading to inaccurate, inconsistent, or workaround-laden data entry. Examples include inability to enter multiple phone numbers, lack of support for "A/C" in amenities, no structured way to indicate “SENIOR” or “JUNIOR” roles, and absence of support for flexible start dates. As a result, users resort to overloading fields like `OverallFeedback` with semi-structured data, reducing data integrity and making automated processing difficult.
+
+**Expected Behavior:**
+
+* Users should be able to:
+
+  * Add multiple phone numbers via an “Add more” button or a dedicated multi-entry field.
+  * Select common missing amenities like “A/C” from the `WorkplaceAmenities` options.
+  * Indicate role seniority using a toggle or dropdown for “Junior” / “Senior” modifiers.
+  * Enter flexible job start dates (e.g., “In 2 years”) through a structured “relative date” selector.
+  * Choose uniform colors from a dropdown or predefined set rather than free-form palette input.
+  * Add structured notes or tags in dedicated optional fields rather than overloading `OverallFeedback`.
+* These changes will improve data consistency, simplify parsing, and reduce reliance on workaround behavior.
+
+Let me know if you’d like a breakdown of how to prioritize these changes or how to derive metrics for workaround detection in this dataset.

@@ -1,0 +1,29 @@
+**Analysis:**
+
+* Several entries contain detailed participant-specific notes embedded within the `OverallFeedback` field, indicating special dietary requirements (e.g., “Meat – Just lamb”, “Fish – only if wild-caught”) and allergy concerns not captured structurally.
+* The `PreviousVersionsParticipated` field includes transformed or inconsistent values, such as “All =? 5”, “Not many => 1”, and values exceeding the expected maximum (e.g., 7.0, 10.0).
+* The `ReminderDate` field has unusually distant future dates (e.g., 2035-08-26), suggesting either misinterpretation of the field’s purpose or accidental data entry.
+* Some records contain additional metadata about *other participants* within a single participant’s `OverallFeedback`, suggesting a lack of dedicated input channels for batch or exception handling.
+
+**Potential User Workarounds:**
+
+* Using the `OverallFeedback` field to store dietary restrictions, allergy information, or exception rules per participant (e.g., halal-only, beef-only, fish exclusions).
+* Encoding multiple participants’ preferences and exception lists into a single feedback field to overcome lack of batch editing support.
+* Converting textual responses (e.g., “all”, “not many”) into numeric fields manually due to system input restrictions.
+* Using `ReminderDate` as a generic note or placeholder due to confusion around its function.
+* Inputting multiple topics of interest using a pipe-separated string (e.g., `SE4AI | MDE | AI4SE`) possibly due to the lack of support for multi-select fields.
+
+**Feature Request or Issue Report:**
+**Title:** Add Structured Fields for Dietary Requirements, Topic Preferences, and Participation History
+
+**Description:**
+Currently, users must rely on unstructured fields (such as `OverallFeedback`) to record dietary restrictions, allergy details, or exception cases. Similarly, fields like `PreviousVersionsParticipated` and `ReminderDate` are misused or inconsistently filled due to unclear input expectations or limited flexibility in data entry. This leads to messy records, poor search/filtering capability, and an increased risk of miscommunication during conference planning.
+
+**Expected Behavior:**
+
+* Introduce a structured multi-select dropdown for `TopicOfInterest`, allowing the user to choose multiple values without formatting hacks.
+* Add a dedicated section for dietary restrictions, including subfields for allergies, halal/kosher status, and specific ingredient exclusions.
+* Clarify the purpose of `ReminderDate` or rename it to reflect intended usage (e.g., “Follow-Up Email Date”).
+* Add predefined options for `PreviousVersionsParticipated` (e.g., 0 to 5), and reject non-numeric or out-of-range values.
+* Allow per-participant exception tagging (e.g., "Only wild-caught fish", "No mushrooms") via an optional structured notes section.
+* Improve validation and tooltips across the form to prevent misuse of fields and encourage consistent data entry.

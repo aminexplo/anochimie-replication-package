@@ -1,0 +1,921 @@
+Misalignment,WorkaroundType,WorkaroundQuality,WorkaroundWidget,WorkaroundWidgetCategory,RecordID,Participant,FormType,EditCount,EditType,AppearanceOrderInForm,AppearanceOrderInCategory,SaveTimeRatio
+Outlier,Data adjustment,3,Number spinner,Controlled,A366,2160,conference,0,,1,1,2.34
+Outlier,Data adjustment,3,Number spinner,Controlled,I393,2160,conference,0,,2,2,1.91
+Outlier,Data adjustment,3,Number spinner,Controlled,K269,2160,conference,0,,3,3,1
+Outlier,Data adjustment,3,Number spinner,Controlled,S066,2160,conference,0,,4,4,1.08
+Outlier,Data adjustment,3,Number spinner,Controlled,V339,2160,conference,0,,5,5,0.95
+Excess,Data adjustment,3,Combo box,Predetermined,U476,2160,conference,0,,6,1,1.13
+Excess,Fallback,3,Text box,Open,U476,2160,conference,0,,6,1,1.13
+Excess,Data adjustment,3,Combo box,Predetermined,O098,2160,conference,0,,7,2,1.28
+Excess,Fallback,3,Text box,Open,O098,2160,conference,0,,7,2,1.28
+Excess,Data adjustment,3,Combo box,Predetermined,Q054,2160,conference,0,,8,3,0.67
+Excess,Fallback,3,Text box,Open,Q054,2160,conference,0,,8,3,0.67
+Excess,Data adjustment,3,Combo box,Predetermined,W861,2160,conference,0,,9,4,0.5
+Excess,Fallback,3,Text box,Open,W861,2160,conference,0,,9,4,0.5
+Excess,Data adjustment,3,Combo box,Predetermined,J599,2160,conference,0,,10,5,0.43
+Excess,Fallback,3,Text box,Open,J599,2160,conference,0,,10,5,0.43
+Ambiguous,Data adjustment,2,Combo box,Predetermined,N383,2160,conference,0,,11,1,4.36
+Ambiguous,Data adjustment,2,Radio button,Predetermined,N383,2160,conference,0,,11,1,4.36
+Ambiguous,Fallback,3,Text box,Open,N383,2160,conference,0,,11,1,4.36
+Ambiguous,Data adjustment,2,Combo box,Predetermined,V829,2160,conference,0,,12,2,1.52
+Ambiguous,Data adjustment,2,Radio button,Predetermined,V829,2160,conference,0,,12,2,1.52
+Ambiguous,Fallback,3,Text box,Open,V829,2160,conference,0,,12,2,1.52
+Ambiguous,Data adjustment,2,Combo box,Predetermined,Q740,2160,conference,0,,13,3,0.56
+Ambiguous,Data adjustment,2,Radio button,Predetermined,Q740,2160,conference,0,,13,3,0.56
+Ambiguous,Fallback,3,Text box,Open,Q740,2160,conference,0,,13,3,0.56
+Ambiguous,Data adjustment,2,Combo box,Predetermined,K743,2160,conference,0,,14,4,0.56
+Ambiguous,Data adjustment,2,Radio button,Predetermined,K743,2160,conference,0,,14,4,0.56
+Ambiguous,Fallback,3,Text box,Open,K743,2160,conference,0,,14,4,0.56
+Ambiguous,Data adjustment,2,Combo box,Predetermined,N613,2160,conference,0,,15,5,0.5
+Ambiguous,Data adjustment,2,Radio button,Predetermined,N613,2160,conference,0,,15,5,0.5
+Ambiguous,Fallback,3,Text box,Open,N613,2160,conference,0,,15,5,0.5
+Implicit,Fallback,3,Text box,Open,F149,2160,employee,0,,1,1,1.66
+Implicit,Fallback,3,Text box,Open,B791,2160,employee,0,,2,2,0.92
+Implicit,Fallback,3,Text box,Open,V373,2160,employee,0,,3,3,0.89
+Implicit,Fallback,3,Text box,Open,F663,2160,employee,0,,4,4,1.11
+Implicit,Fallback,3,Text box,Open,O373,2160,employee,0,,5,5,1.08
+Explicit,Data adjustment,3,Combo box,Predetermined,B985,2160,employee,0,,6,1,1.37
+Explicit,Fallback,3,Text box,Open,B985,2160,employee,0,,6,1,1.37
+Explicit,Data adjustment,3,Combo box,Predetermined,N715,2160,employee,0,,7,2,1.16
+Explicit,Fallback,3,Text box,Open,N715,2160,employee,0,,7,2,1.16
+Explicit,Data adjustment,3,Combo box,Predetermined,U697,2160,employee,0,,8,3,0.95
+Explicit,Fallback,3,Text box,Open,U697,2160,employee,0,,8,3,0.95
+Explicit,Data adjustment,3,Combo box,Predetermined,D044,2160,employee,0,,9,4,0.79
+Explicit,Fallback,3,Text box,Open,D044,2160,employee,0,,9,4,0.79
+Explicit,Data adjustment,3,Combo box,Predetermined,M240,2160,employee,0,,10,5,0.87
+Explicit,Fallback,3,Text box,Open,M240,2160,employee,0,,10,5,0.87
+Ambiguous,Data adjustment,2,Text box,Open,G309,2160,employee,0,,11,1,1.08
+Ambiguous,Data adjustment,2,Combo box,Predetermined,G309,2160,employee,0,,11,1,1.08
+Ambiguous,Fallback,3,Text box,Open,G309,2160,employee,0,,11,1,1.08
+Ambiguous,Data adjustment,2,Text box,Open,G687,2160,employee,0,,12,2,1.32
+Ambiguous,Data adjustment,2,Combo box,Predetermined,G687,2160,employee,0,,12,2,1.32
+Ambiguous,Fallback,3,Text box,Open,G687,2160,employee,0,,12,2,1.32
+Ambiguous,Data adjustment,2,Text box,Open,D178,2160,employee,0,,13,3,0.82
+Ambiguous,Data adjustment,2,Combo box,Predetermined,D178,2160,employee,0,,13,3,0.82
+Ambiguous,Fallback,3,Text box,Open,D178,2160,employee,0,,13,3,0.82
+Ambiguous,Data adjustment,2,Text box,Open,Y247,2160,employee,0,,14,4,0.89
+Ambiguous,Data adjustment,2,Combo box,Predetermined,Y247,2160,employee,0,,14,4,0.89
+Ambiguous,Fallback,3,Text box,Open,Y247,2160,employee,0,,14,4,0.89
+Ambiguous,Data adjustment,2,Text box,Open,Y944,2160,employee,0,,15,5,1.05
+Ambiguous,Data adjustment,2,Combo box,Predetermined,Y944,2160,employee,0,,15,5,1.05
+Ambiguous,Fallback,3,Text box,Open,Y944,2160,employee,0,,15,5,1.05
+Nonstandard,Functional adjustment,4,Text box,Open,T050,2160,predetermined,0,,1,1,0.27
+Nonstandard,Functional adjustment,4,Text box,Open,M389,2160,predetermined,0,,2,2,0.3
+Nonstandard,Functional adjustment,4,Text box,Open,T385,2160,predetermined,0,,3,3,0.18
+Nonstandard,Functional adjustment,4,Text box,Open,G067,2160,predetermined,0,,4,4,0.21
+Nonstandard,Functional adjustment,4,Text box,Open,Q938,2160,predetermined,0,,5,5,0.18
+Excess,Functional adjustment,4,Text box,Open,O432,2160,predetermined,1,Not related,6,1,1
+Excess,Functional adjustment,4,Checkbox,Predetermined,O432,2160,predetermined,1,Not related,6,1,1
+Excess,Functional adjustment,4,Text box,Open,Y509,2160,predetermined,0,,7,2,1.27
+Excess,Functional adjustment,4,Checkbox,Predetermined,Y509,2160,predetermined,0,,7,2,1.27
+Excess,Functional adjustment,4,Text box,Open,G417,2160,predetermined,0,,8,3,0.97
+Excess,Functional adjustment,4,Checkbox,Predetermined,G417,2160,predetermined,0,,8,3,0.97
+Excess,Functional adjustment,4,Text box,Open,T489,2160,predetermined,0,,9,4,0.91
+Excess,Functional adjustment,4,Checkbox,Predetermined,T489,2160,predetermined,0,,9,4,0.91
+Excess,Functional adjustment,4,Text box,Open,O586,2160,predetermined,0,,10,5,1.06
+Excess,Functional adjustment,4,Checkbox,Predetermined,O586,2160,predetermined,0,,10,5,1.06
+Ambiguous,Functional adjustment,4,Slider,Controlled,D183,2160,predetermined,0,,11,1,2.12
+Ambiguous,Functional adjustment,3,Text box,Open,D183,2160,predetermined,0,,11,1,2.12
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,D183,2160,predetermined,0,,11,1,2.12
+Ambiguous,Functional adjustment,4,Slider,Controlled,B738,2160,predetermined,0,,12,2,1.18
+Ambiguous,Functional adjustment,3,Text box,Open,B738,2160,predetermined,0,,12,2,1.18
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,B738,2160,predetermined,0,,12,2,1.18
+Ambiguous,Functional adjustment,4,Slider,Controlled,N815,2160,predetermined,0,,13,3,0.97
+Ambiguous,Functional adjustment,3,Text box,Open,N815,2160,predetermined,0,,13,3,0.97
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,N815,2160,predetermined,0,,13,3,0.97
+Ambiguous,Functional adjustment,4,Slider,Controlled,Y408,2160,predetermined,0,,14,4,1.18
+Ambiguous,Functional adjustment,3,Text box,Open,Y408,2160,predetermined,0,,14,4,1.18
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,Y408,2160,predetermined,0,,14,4,1.18
+Ambiguous,Functional adjustment,4,Slider,Controlled,Y277,2160,predetermined,0,,15,5,1
+Ambiguous,Functional adjustment,3,Text box,Open,Y277,2160,predetermined,0,,15,5,1
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,Y277,2160,predetermined,0,,15,5,1
+Explicit,Fallback,3,Text box,Open,D264,2583,conference,0,,1,1,1.28
+Explicit,Fallback,3,Text box,Open,L037,2583,conference,0,,2,2,1.71
+Explicit,Fallback,3,Text box,Open,V653,2583,conference,0,,3,3,0.93
+Explicit,Fallback,3,Text box,Open,F789,2583,conference,0,,4,4,0.9
+Explicit,Fallback,3,Text box,Open,J707,2583,conference,1,Not related,5,5,0.91
+Implicit,Data adjustment,3,Date picker,Controlled,N701,2583,conference,0,,6,1,1.09
+Implicit,Data adjustment,4,Date picker,Controlled,K001,2583,conference,0,,7,2,1.32
+Implicit,Data adjustment,4,Date picker,Controlled,S958,2583,conference,0,,8,3,0.79
+Implicit,Data adjustment,3,Date picker,Controlled,G627,2583,conference,0,,9,4,1.13
+Implicit,Data adjustment,4,Date picker,Controlled,O550,2583,conference,0,,10,5,0.81
+Excess,Functional adjustment,4,Combo box,Predetermined,Y174,2583,conference,1,Not related,11,1,1.38
+Excess,Functional adjustment,4,Combo box,Predetermined,T432,2583,conference,0,,12,2,0.84
+Excess,Functional adjustment,4,Combo box,Predetermined,K512,2583,conference,0,,13,3,1
+Excess,Functional adjustment,4,Combo box,Predetermined,R748,2583,conference,0,,14,4,0.78
+Excess,Functional adjustment,4,Combo box,Predetermined,A620,2583,conference,0,,15,5,0.63
+Nonstandard,Data adjustment,3,Date picker,Controlled,K715,2583,employee,0,,1,1,0.99
+Nonstandard,Data adjustment,3,Date picker,Controlled,A995,2583,employee,0,,2,2,1.5
+Nonstandard,Data adjustment,3,Date picker,Controlled,G377,2583,employee,0,,3,3,1.26
+Nonstandard,Data adjustment,4,Date picker,Controlled,F495,2583,employee,0,,4,4,1.12
+Nonstandard,Data adjustment,4,Date picker,Controlled,O151,2583,employee,0,,5,5,1.26
+Implicit,Fallback,3,Text box,Open,U616,2583,employee,0,,6,1,2.2
+Implicit,Fallback,3,Text box,Open,C098,2583,employee,0,,7,2,1.16
+Implicit,Fallback,3,Text box,Open,H484,2583,employee,0,,8,3,1.49
+Implicit,Fallback,3,Text box,Open,L417,2583,employee,0,,9,4,0.72
+Implicit,Fallback,3,Text box,Open,L763,2583,employee,0,,10,5,1.3
+Ambiguous,Data loss,1,Text box,Open,A339,2583,employee,0,,11,1,2.67
+Ambiguous,Data loss,2,Combo box,Predetermined,A339,2583,employee,0,,11,1,2.67
+Ambiguous,Fallback,3,Text box,Open,A339,2583,employee,0,,11,1,2.67
+Ambiguous,Data loss,1,Text box,Open,G954,2583,employee,0,,12,2,2.22
+Ambiguous,Data loss,2,Combo box,Predetermined,G954,2583,employee,0,,12,2,2.22
+Ambiguous,Fallback,3,Text box,Open,G954,2583,employee,0,,12,2,2.22
+Ambiguous,Data loss,1,Text box,Open,F619,2583,employee,0,,13,3,1.21
+Ambiguous,Data loss,2,Combo box,Predetermined,F619,2583,employee,0,,13,3,1.21
+Ambiguous,Fallback,3,Text box,Open,F619,2583,employee,0,,13,3,1.21
+Ambiguous,Data loss,1,Text box,Open,I300,2583,employee,0,,14,4,1.63
+Ambiguous,Data loss,2,Combo box,Predetermined,I300,2583,employee,0,,14,4,1.63
+Ambiguous,Fallback,3,Text box,Open,I300,2583,employee,0,,14,4,1.63
+Ambiguous,Data loss,1,Text box,Open,Q150,2583,employee,0,,15,5,1.04
+Ambiguous,Data loss,2,Combo box,Predetermined,Q150,2583,employee,0,,15,5,1.04
+Ambiguous,Fallback,3,Text box,Open,Q150,2583,employee,0,,15,5,1.04
+Implicit,Data adjustment,4,Date picker,Controlled,F272,2794,conference,0,,1,1,1.47
+Implicit,Data adjustment,3,Date picker,Controlled,P542,2794,conference,0,,2,2,1.09
+Implicit,Data adjustment,4,Date picker,Controlled,X239,2794,conference,0,,3,3,0.92
+Implicit,Data adjustment,3,Date picker,Controlled,O267,2794,conference,0,,4,4,1.11
+Implicit,Data adjustment,3,Date picker,Controlled,B301,2794,conference,0,,5,5,0.85
+Outlier,Data adjustment,3,Number spinner,Controlled,Y018,2794,conference,0,,6,1,1.96
+Outlier,Data adjustment,3,Number spinner,Controlled,C720,2794,conference,0,,7,2,0.83
+Outlier,Data adjustment,3,Number spinner,Controlled,C516,2794,conference,0,,8,3,0.71
+Outlier,Data adjustment,3,Number spinner,Controlled,D915,2794,conference,0,,9,4,0.76
+Outlier,Data adjustment,3,Number spinner,Controlled,X894,2794,conference,0,,10,5,0.57
+Excess,Functional adjustment,4,Combo box,Predetermined,T217,2794,conference,0,,11,1,1.63
+Excess,Functional adjustment,4,Combo box,Predetermined,P242,2794,conference,0,,12,2,0.64
+Excess,Functional adjustment,4,Combo box,Predetermined,M899,2794,conference,0,,13,3,0.76
+Excess,Functional adjustment,4,Combo box,Predetermined,Z638,2794,conference,0,,14,4,1.11
+Excess,Functional adjustment,4,Combo box,Predetermined,R964,2794,conference,0,,15,5,0.64
+Excess,Data adjustment,4,Text box,Open,R080,2794,employee,0,,1,1,2.22
+Excess,Data adjustment,4,Text box,Open,O133,2794,employee,0,,2,2,1
+Excess,Data adjustment,4,Text box,Open,P115,2794,employee,0,,3,3,0.98
+Excess,Data adjustment,4,Text box,Open,D226,2794,employee,0,,4,4,0.84
+Excess,Data adjustment,4,Text box,Open,M949,2794,employee,0,,5,5,1.2
+Outlier,Data loss,2,Slider,Controlled,Y182,2794,employee,0,,6,1,1.23
+Outlier,Data loss,2,Slider,Controlled,F944,2794,employee,0,,7,2,0.69
+Outlier,Data loss,2,Slider,Controlled,C078,2794,employee,0,,8,3,0.52
+Outlier,Data loss,2,Slider,Controlled,X974,2794,employee,0,,9,4,1.12
+Outlier,Data loss,2,Slider,Controlled,B887,2794,employee,0,,10,5,0.75
+Implicit,Fallback,3,Text box,Open,I163,2794,employee,0,,11,1,1.56
+Implicit,Fallback,3,Text box,Open,D045,2794,employee,0,,12,2,0.69
+Implicit,Fallback,3,Text box,Open,Y211,2794,employee,0,,13,3,0.72
+Implicit,Fallback,3,Text box,Open,E135,2794,employee,0,,14,4,0.67
+Implicit,Fallback,3,Text box,Open,N546,2794,employee,0,,15,5,0.52
+Explicit,Functional adjustment,4,Text box,Open,P644,2794,open,0,,1,1,1.05
+Explicit,Functional adjustment,4,Text box,Open,K135,2794,open,0,,2,2,1.25
+Explicit,Functional adjustment,4,Text box,Open,L787,2794,open,0,,3,3,1.7
+Explicit,Functional adjustment,4,Text box,Open,N900,2794,open,0,,4,4,1.4
+Explicit,Functional adjustment,4,Text box,Open,E836,2794,open,0,,5,5,0.95
+Excess,Functional adjustment,3,Checkbox,Predetermined,X319,2794,open,0,,6,1,1.5
+Excess,Functional adjustment,3,Checkbox,Predetermined,P005,2794,open,0,,7,2,1.7
+Excess,Functional adjustment,3,Checkbox,Predetermined,E056,2794,open,0,,8,3,0.9
+Excess,Functional adjustment,3,Checkbox,Predetermined,P806,2794,open,0,,9,4,0.8
+Excess,Functional adjustment,3,Checkbox,Predetermined,K198,2794,open,0,,10,5,0.6
+Ambiguous,Functional adjustment,4,Text box,Open,X419,2794,open,0,,11,1,1.45
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,X419,2794,open,0,,11,1,1.45
+Ambiguous,Functional adjustment,4,Text box,Open,T591,2794,open,0,,12,2,1.15
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,T591,2794,open,0,,12,2,1.15
+Ambiguous,Functional adjustment,4,Text box,Open,Q668,2794,open,0,,13,3,2.4
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,Q668,2794,open,0,,13,3,2.4
+Ambiguous,Functional adjustment,4,Text box,Open,P799,2794,open,0,,14,4,1.55
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,P799,2794,open,0,,14,4,1.55
+Ambiguous,Functional adjustment,4,Text box,Open,P010,2794,open,0,,15,5,2
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,P010,2794,open,0,,15,5,2
+Explicit,Data adjustment,3,Slider,Controlled,C635,3610,predetermined,1,Not related,1,1,3.34
+Explicit,Functional adjustment,3,Checkbox,Predetermined,C635,3610,predetermined,1,Not related,1,1,3.34
+Explicit,Data adjustment,3,Slider,Controlled,I952,3610,predetermined,0,,2,2,2.4
+Explicit,Functional adjustment,3,Checkbox,Predetermined,I952,3610,predetermined,0,,2,2,2.4
+Explicit,Data adjustment,3,Slider,Controlled,P590,3610,predetermined,0,,3,3,0.56
+Explicit,Functional adjustment,3,Checkbox,Predetermined,P590,3610,predetermined,0,,3,3,0.56
+Explicit,Data adjustment,3,Slider,Controlled,P829,3610,predetermined,0,,4,4,0.48
+Explicit,Functional adjustment,3,Checkbox,Predetermined,P829,3610,predetermined,0,,4,4,0.48
+Explicit,Data adjustment,3,Slider,Controlled,Z323,3610,predetermined,0,,5,5,0.83
+Explicit,Functional adjustment,3,Checkbox,Predetermined,Z323,3610,predetermined,0,,5,5,0.83
+Outlier,Data adjustment,3,Slider,Controlled,Y379,3610,predetermined,0,,6,1,4.72
+Outlier,Functional adjustment,3,Checkbox,Predetermined,Y379,3610,predetermined,0,,6,1,4.72
+Outlier,Data adjustment,3,Slider,Controlled,V224,3610,predetermined,0,,7,2,0.8
+Outlier,Functional adjustment,3,Checkbox,Predetermined,V224,3610,predetermined,0,,7,2,0.8
+Outlier,Data adjustment,3,Slider,Controlled,R531,3610,predetermined,1,Ad hoc,8,3,1.34
+Outlier,Functional adjustment,3,Checkbox,Predetermined,R531,3610,predetermined,1,Ad hoc,8,3,1.34
+Outlier,Data adjustment,3,Slider,Controlled,J901,3610,predetermined,0,,9,4,0.59
+Outlier,Functional adjustment,3,Checkbox,Predetermined,J901,3610,predetermined,0,,9,4,0.59
+Outlier,Data adjustment,3,Slider,Controlled,S029,3610,predetermined,0,,10,5,1.62
+Outlier,Functional adjustment,3,Checkbox,Predetermined,S029,3610,predetermined,0,,10,5,1.62
+Ambiguous,Data adjustment,3,Slider,Controlled,G108,3610,predetermined,0,,11,1,0.87
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,G108,3610,predetermined,0,,11,1,0.87
+Ambiguous,Data adjustment,3,Slider,Controlled,R491,3610,predetermined,0,,12,2,0.9
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,R491,3610,predetermined,0,,12,2,0.9
+Ambiguous,Data adjustment,3,Slider,Controlled,Y523,3610,predetermined,0,,13,3,0.73
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,Y523,3610,predetermined,0,,13,3,0.73
+Ambiguous,Data adjustment,3,Slider,Controlled,Y572,3610,predetermined,0,,14,4,0.45
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,Y572,3610,predetermined,0,,14,4,0.45
+Ambiguous,Data adjustment,3,Slider,Controlled,U459,3610,predetermined,0,,15,5,0.63
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,U459,3610,predetermined,0,,15,5,0.63
+Implicit,Data adjustment,4,Date picker,Controlled,V179,4238,conference,0,,1,1,0.91
+Implicit,Data adjustment,4,Date picker,Controlled,J538,4238,conference,0,,2,2,0.7
+Implicit,Data adjustment,3,Date picker,Controlled,R054,4238,conference,0,,3,3,1.32
+Implicit,Data adjustment,3,Date picker,Controlled,W366,4238,conference,0,,4,4,0.98
+Implicit,Data adjustment,3,Date picker,Controlled,Z466,4238,conference,0,,5,5,0.98
+Nonstandard,Data adjustment,3,Slider,Controlled,J557,4238,conference,0,,6,1,1.19
+Nonstandard,Data adjustment,3,Slider,Controlled,H429,4238,conference,0,,7,2,0.57
+Nonstandard,Data adjustment,3,Slider,Controlled,N741,4238,conference,0,,8,3,0.7
+Nonstandard,Data adjustment,3,Slider,Controlled,J757,4238,conference,0,,9,4,0.68
+Nonstandard,Data adjustment,3,Slider,Controlled,I741,4238,conference,0,,10,5,0.79
+Ambiguous,Fallback,3,Text box,Open,J073,4238,conference,1,Systematic,11,1,0.92
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,J073,4238,conference,1,Systematic,11,1,0.92
+Ambiguous,Fallback,3,Text box,Open,P615,4238,conference,1,Systematic,12,2,1.94
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,P615,4238,conference,1,Systematic,12,2,1.94
+Ambiguous,Fallback,3,Text box,Open,Z146,4238,conference,1,Systematic,13,3,1.02
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,Z146,4238,conference,1,Systematic,13,3,1.02
+Ambiguous,Fallback,3,Text box,Open,S553,4238,conference,0,,14,4,1.17
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,S553,4238,conference,0,,14,4,1.17
+Ambiguous,Fallback,3,Text box,Open,T541,4238,conference,0,,15,5,1.74
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,T541,4238,conference,0,,15,5,1.74
+Outlier,Functional adjustment,4,Checkbox,Predetermined,D574,4238,controlled,0,,1,1,1.02
+Outlier,Functional adjustment,4,Checkbox,Predetermined,V402,4238,controlled,0,,2,2,0.47
+Outlier,Functional adjustment,4,Checkbox,Predetermined,V967,4238,controlled,0,,3,3,0.34
+Outlier,Functional adjustment,4,Checkbox,Predetermined,T661,4238,controlled,0,,4,4,0.38
+Outlier,Functional adjustment,4,Checkbox,Predetermined,H702,4238,controlled,0,,5,5,0.34
+Nonstandard,Functional adjustment,4,Text box,Open,G379,4238,controlled,0,,6,1,0.74
+Nonstandard,Functional adjustment,4,Checkbox,Predetermined,G379,4238,controlled,0,,6,1,0.74
+Nonstandard,Functional adjustment,4,Text box,Open,G812,4238,controlled,0,,7,2,0.36
+Nonstandard,Functional adjustment,4,Checkbox,Predetermined,G812,4238,controlled,0,,7,2,0.36
+Nonstandard,Functional adjustment,4,Text box,Open,N230,4238,controlled,0,,8,3,0.23
+Nonstandard,Functional adjustment,4,Checkbox,Predetermined,N230,4238,controlled,0,,8,3,0.23
+Nonstandard,Functional adjustment,4,Text box,Open,E342,4238,controlled,0,,9,4,0.28
+Nonstandard,Functional adjustment,4,Checkbox,Predetermined,E342,4238,controlled,0,,9,4,0.28
+Nonstandard,Functional adjustment,4,Text box,Open,F169,4238,controlled,0,,10,5,0.57
+Nonstandard,Functional adjustment,4,Checkbox,Predetermined,F169,4238,controlled,0,,10,5,0.57
+Ambiguous,Functional adjustment,4,Number spinner,Controlled,F165,4238,controlled,1,Systematic,11,1,3.26
+Ambiguous,Functional adjustment,4,Text box,Open,F165,4238,controlled,1,Systematic,11,1,3.26
+Ambiguous,Functional adjustment,4,Checkbox,Predetermined,F165,4238,controlled,1,Systematic,11,1,3.26
+Ambiguous,Functional adjustment,4,Number spinner,Controlled,A834,4238,controlled,0,,12,2,1.38
+Ambiguous,Functional adjustment,4,Text box,Open,A834,4238,controlled,0,,12,2,1.38
+Ambiguous,Functional adjustment,4,Checkbox,Predetermined,A834,4238,controlled,0,,12,2,1.38
+Ambiguous,Functional adjustment,4,Number spinner,Controlled,Q510,4238,controlled,0,,13,3,1.4
+Ambiguous,Functional adjustment,4,Text box,Open,Q510,4238,controlled,0,,13,3,1.4
+Ambiguous,Functional adjustment,4,Checkbox,Predetermined,Q510,4238,controlled,0,,13,3,1.4
+Ambiguous,Functional adjustment,4,Number spinner,Controlled,P203,4238,controlled,0,,14,4,1
+Ambiguous,Functional adjustment,4,Text box,Open,P203,4238,controlled,0,,14,4,1
+Ambiguous,Functional adjustment,4,Checkbox,Predetermined,P203,4238,controlled,0,,14,4,1
+Ambiguous,Functional adjustment,4,Number spinner,Controlled,V605,4238,controlled,0,,15,5,1.09
+Ambiguous,Functional adjustment,4,Text box,Open,V605,4238,controlled,0,,15,5,1.09
+Ambiguous,Functional adjustment,4,Checkbox,Predetermined,V605,4238,controlled,0,,15,5,1.09
+Nonstandard,Data adjustment,3,Date picker,Controlled,C675,4238,employee,0,,1,1,1.11
+Nonstandard,Data adjustment,3,Date picker,Controlled,A895,4238,employee,0,,2,2,0.78
+Nonstandard,Data adjustment,3,Date picker,Controlled,U110,4238,employee,0,,3,3,0.78
+Nonstandard,Data adjustment,4,Date picker,Controlled,M073,4238,employee,0,,4,4,0.85
+Nonstandard,Data adjustment,4,Date picker,Controlled,Q709,4238,employee,0,,5,5,0.8
+Implicit,Fallback,2,Text box,Open,D505,4238,employee,1,Systematic,6,1,1.22
+Implicit,Fallback,2,Text box,Open,N474,4238,employee,0,,7,2,1.33
+Implicit,Fallback,2,Text box,Open,X731,4238,employee,0,,8,3,1.84
+Implicit,Fallback,2,Text box,Open,Y561,4238,employee,0,,9,4,0.67
+Implicit,Fallback,2,Text box,Open,M647,4238,employee,0,,10,5,0.82
+Ambiguous,Data loss,1,Text box,Open,I095,4238,employee,0,,11,1,0.96
+Ambiguous,Data loss,2,Combo box,Predetermined,I095,4238,employee,0,,11,1,0.96
+Ambiguous,Data loss,1,Text box,Open,P580,4238,employee,0,,12,2,1.15
+Ambiguous,Data loss,2,Combo box,Predetermined,P580,4238,employee,0,,12,2,1.15
+Ambiguous,Data loss,1,Text box,Open,I609,4238,employee,0,,13,3,0.76
+Ambiguous,Data loss,2,Combo box,Predetermined,I609,4238,employee,0,,13,3,0.76
+Ambiguous,Data loss,1,Text box,Open,N689,4238,employee,0,,14,4,0.75
+Ambiguous,Data loss,2,Combo box,Predetermined,N689,4238,employee,0,,14,4,0.75
+Ambiguous,Data loss,1,Text box,Open,T422,4238,employee,0,,15,5,0.96
+Ambiguous,Data loss,2,Combo box,Predetermined,T422,4238,employee,0,,15,5,0.96
+Explicit,Fallback,3,Text box,Open,Q841,5427,conference,0,,1,1,0.88
+Explicit,Fallback,3,Text box,Open,Z353,5427,conference,0,,2,2,1.12
+Explicit,Functional adjustment,3,Checkbox,Predetermined,Z353,5427,conference,0,,2,2,1.12
+Explicit,Fallback,3,Text box,Open,R025,5427,conference,0,,3,3,1.75
+Explicit,Functional adjustment,3,Checkbox,Predetermined,R025,5427,conference,0,,3,3,1.75
+Explicit,Fallback,3,Text box,Open,S497,5427,conference,0,,4,4,0.75
+Explicit,Functional adjustment,3,Checkbox,Predetermined,S497,5427,conference,0,,4,4,0.75
+Explicit,Fallback,3,Text box,Open,P946,5427,conference,0,,5,5,0.71
+Explicit,Functional adjustment,3,Checkbox,Predetermined,P946,5427,conference,0,,5,5,0.71
+Implicit,Data adjustment,3,Date picker,Controlled,R993,5427,conference,0,,6,1,1.9
+Implicit,Data adjustment,3,Date picker,Controlled,K246,5427,conference,0,,7,2,0.98
+Implicit,Data adjustment,4,Date picker,Controlled,G813,5427,conference,0,,8,3,1.19
+Implicit,Data adjustment,4,Date picker,Controlled,V347,5427,conference,0,,9,4,0.81
+Implicit,Data adjustment,3,Date picker,Controlled,M822,5427,conference,0,,10,5,1.63
+Nonstandard,Data adjustment,3,Slider,Controlled,H673,5427,conference,0,,11,1,1.12
+Nonstandard,Data adjustment,3,Slider,Controlled,F752,5427,conference,0,,12,2,0.81
+Nonstandard,Data adjustment,3,Slider,Controlled,O907,5427,conference,1,Not related,13,3,0.96
+Nonstandard,Data adjustment,3,Slider,Controlled,X051,5427,conference,0,,14,4,0.9
+Nonstandard,Data adjustment,3,Slider,Controlled,U397,5427,conference,0,,15,5,0.63
+Explicit,Fallback,2,Text box,Open,Q787,5427,controlled,0,,1,1,-1.04
+Explicit,Fallback,2,Text box,Open,Q117,5427,controlled,0,,2,2,1.68
+Explicit,Fallback,2,Text box,Open,N922,5427,controlled,0,,3,3,0.58
+Explicit,Fallback,2,Text box,Open,F787,5427,controlled,0,,4,4,1.22
+Explicit,Fallback,2,Text box,Open,L836,5427,controlled,0,,5,5,0.75
+Outlier,No workaround,N/A,N/A,N/A,C588,5427,controlled,0,,6,1,0.87
+Outlier,No workaround,N/A,N/A,N/A,R118,5427,controlled,0,,7,2,0.69
+Outlier,No workaround,N/A,N/A,N/A,D189,5427,controlled,0,,8,3,0.35
+Outlier,No workaround,N/A,N/A,N/A,A819,5427,controlled,0,,9,4,1.39
+Outlier,No workaround,N/A,N/A,N/A,B532,5427,controlled,0,,10,5,0.75
+Ambiguous,Data adjustment,2,Number spinner,Controlled,A850,5427,controlled,1,Systematic,11,1,2.84
+Ambiguous,Fallback,2,Text box,Open,A850,5427,controlled,1,Systematic,11,1,2.84
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,A850,5427,controlled,1,Systematic,11,1,2.84
+Ambiguous,Data adjustment,2,Number spinner,Controlled,V225,5427,controlled,0,,12,2,0.98
+Ambiguous,Fallback,2,Text box,Open,V225,5427,controlled,0,,12,2,0.98
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,V225,5427,controlled,0,,12,2,0.98
+Ambiguous,Data adjustment,2,Number spinner,Controlled,V609,5427,controlled,0,,13,3,0.87
+Ambiguous,Fallback,2,Text box,Open,V609,5427,controlled,0,,13,3,0.87
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,V609,5427,controlled,0,,13,3,0.87
+Ambiguous,Data adjustment,2,Number spinner,Controlled,K098,5427,controlled,0,,14,4,0.98
+Ambiguous,Fallback,2,Text box,Open,K098,5427,controlled,0,,14,4,0.98
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,K098,5427,controlled,0,,14,4,0.98
+Ambiguous,Data adjustment,2,Number spinner,Controlled,R068,5427,controlled,0,,15,5,0.69
+Ambiguous,Fallback,2,Text box,Open,R068,5427,controlled,0,,15,5,0.69
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,R068,5427,controlled,0,,15,5,0.69
+Excess,Data adjustment,3,Text box,Open,P963,5427,employee,0,,1,1,1.39
+Excess,Fallback,3,Text box,Open,P963,5427,employee,0,,1,1,1.39
+Excess,Data adjustment,3,Text box,Open,B853,5427,employee,0,,2,2,1.65
+Excess,Fallback,3,Text box,Open,B853,5427,employee,0,,2,2,1.65
+Excess,Data adjustment,3,Text box,Open,O402,5427,employee,0,,3,3,0.93
+Excess,Fallback,3,Text box,Open,O402,5427,employee,0,,3,3,0.93
+Excess,Data adjustment,3,Text box,Open,I153,5427,employee,0,,4,4,1.41
+Excess,Fallback,3,Text box,Open,I153,5427,employee,0,,4,4,1.41
+Excess,Data adjustment,3,Text box,Open,V544,5427,employee,0,,5,5,1.07
+Excess,Fallback,3,Text box,Open,V544,5427,employee,0,,5,5,1.07
+Nonstandard,Data adjustment,4,Date picker,Controlled,C245,5427,employee,1,Not related,6,1,1.05
+Nonstandard,Data adjustment,4,Date picker,Controlled,T843,5427,employee,1,Not related,7,2,1.05
+Nonstandard,Data adjustment,3,Date picker,Controlled,J392,5427,employee,0,,8,3,1.47
+Nonstandard,Fallback,3,Text box,Open,J392,5427,employee,0,,8,3,1.47
+Nonstandard,Data adjustment,3,Date picker,Controlled,S695,5427,employee,0,,9,4,1.21
+Nonstandard,Fallback,3,Text box,Open,S695,5427,employee,0,,9,4,1.21
+Nonstandard,Data adjustment,3,Date picker,Controlled,K859,5427,employee,0,,10,5,0.77
+Nonstandard,Fallback,3,Text box,Open,K859,5427,employee,0,,10,5,0.77
+Ambiguous,Data loss,1,Text box,Open,O905,5427,employee,0,,11,1,1.33
+Ambiguous,Data loss,2,Combo box,Predetermined,O905,5427,employee,0,,11,1,1.33
+Ambiguous,Fallback,3,Text box,Open,O905,5427,employee,0,,11,1,1.33
+Ambiguous,Data loss,1,Text box,Open,D714,5427,employee,0,,12,2,1.59
+Ambiguous,Data loss,2,Combo box,Predetermined,D714,5427,employee,0,,12,2,1.59
+Ambiguous,Fallback,3,Text box,Open,D714,5427,employee,0,,12,2,1.59
+Ambiguous,Data loss,1,Text box,Open,O976,5427,employee,0,,13,3,1.37
+Ambiguous,Data loss,2,Combo box,Predetermined,O976,5427,employee,0,,13,3,1.37
+Ambiguous,Fallback,3,Text box,Open,O976,5427,employee,0,,13,3,1.37
+Ambiguous,Data loss,1,Text box,Open,T381,5427,employee,0,,14,4,1.55
+Ambiguous,Data loss,2,Combo box,Predetermined,T381,5427,employee,0,,14,4,1.55
+Ambiguous,Fallback,3,Text box,Open,T381,5427,employee,0,,14,4,1.55
+Ambiguous,Data loss,1,Text box,Open,R938,5427,employee,0,,15,5,0.93
+Ambiguous,Data loss,2,Combo box,Predetermined,R938,5427,employee,0,,15,5,0.93
+Ambiguous,Fallback,3,Text box,Open,R938,5427,employee,0,,15,5,0.93
+Implicit,Data adjustment,4,Date picker,Controlled,E584,6062,conference,0,,1,1,1.23
+Implicit,Data adjustment,4,Date picker,Controlled,Z349,6062,conference,0,,2,2,1.09
+Implicit,Data adjustment,4,Date picker,Controlled,M287,6062,conference,0,,3,3,1.06
+Implicit,Data adjustment,4,Date picker,Controlled,Z632,6062,conference,0,,4,4,1.09
+Implicit,Data adjustment,3,Date picker,Controlled,Y164,6062,conference,0,,5,5,2.94
+Nonstandard,Data adjustment,3,Slider,Controlled,E159,6062,conference,0,,6,1,0.77
+Nonstandard,Data adjustment,3,Slider,Controlled,D231,6062,conference,0,,7,2,0.71
+Nonstandard,Data adjustment,3,Slider,Controlled,U138,6062,conference,0,,8,3,1.14
+Nonstandard,Data adjustment,3,Slider,Controlled,C017,6062,conference,0,,9,4,0.69
+Nonstandard,Data adjustment,3,Slider,Controlled,V130,6062,conference,0,,10,5,1.51
+Excess,Functional adjustment,4,Combo box,Predetermined,K132,6062,conference,0,,11,1,0.86
+Excess,Functional adjustment,4,Combo box,Predetermined,P446,6062,conference,0,,12,2,0.91
+Excess,Functional adjustment,4,Combo box,Predetermined,Q442,6062,conference,0,,13,3,0.74
+Excess,Functional adjustment,4,Combo box,Predetermined,R843,6062,conference,0,,14,4,0.91
+Excess,Functional adjustment,4,Combo box,Predetermined,G257,6062,conference,2,Not related,15,5,0.71
+Nonstandard,Functional adjustment,4,Text box,Open,C203,6062,controlled,0,,1,1,0.44
+Nonstandard,Functional adjustment,4,Text box,Open,Z881,6062,controlled,0,,2,2,0.3
+Nonstandard,Functional adjustment,4,Text box,Open,X454,6062,controlled,0,,3,3,0.3
+Nonstandard,Functional adjustment,4,Text box,Open,O778,6062,controlled,0,,4,4,0.41
+Nonstandard,Functional adjustment,4,Text box,Open,W906,6062,controlled,0,,5,5,0.26
+Excess,Functional adjustment,4,Text box,Open,Q928,6062,controlled,0,,6,1,1.26
+Excess,Functional adjustment,4,Checkbox,Predetermined,Q928,6062,controlled,0,,6,1,1.26
+Excess,Functional adjustment,4,Text box,Open,K747,6062,controlled,0,,7,2,0.81
+Excess,Functional adjustment,4,Checkbox,Predetermined,K747,6062,controlled,0,,7,2,0.81
+Excess,Functional adjustment,4,Text box,Open,P262,6062,controlled,0,,8,3,0.85
+Excess,Functional adjustment,4,Checkbox,Predetermined,P262,6062,controlled,0,,8,3,0.85
+Excess,Functional adjustment,4,Text box,Open,J432,6062,controlled,0,,9,4,0.81
+Excess,Functional adjustment,4,Checkbox,Predetermined,J432,6062,controlled,0,,9,4,0.81
+Excess,Functional adjustment,4,Text box,Open,H516,6062,controlled,0,,10,5,1
+Excess,Functional adjustment,4,Checkbox,Predetermined,H516,6062,controlled,0,,10,5,1
+Ambiguous,Functional adjustment,4,Number spinner,Controlled,Z425,6062,controlled,0,,11,1,2
+Ambiguous,Functional adjustment,4,Text box,Open,Z425,6062,controlled,0,,11,1,2
+Ambiguous,Functional adjustment,4,Checkbox,Predetermined,Z425,6062,controlled,0,,11,1,2
+Ambiguous,Functional adjustment,4,Number spinner,Controlled,R719,6062,controlled,0,,12,2,1.22
+Ambiguous,Functional adjustment,4,Text box,Open,R719,6062,controlled,0,,12,2,1.22
+Ambiguous,Functional adjustment,4,Checkbox,Predetermined,R719,6062,controlled,0,,12,2,1.22
+Ambiguous,Functional adjustment,4,Number spinner,Controlled,Y040,6062,controlled,0,,13,3,1.07
+Ambiguous,Functional adjustment,4,Text box,Open,Y040,6062,controlled,0,,13,3,1.07
+Ambiguous,Functional adjustment,4,Checkbox,Predetermined,Y040,6062,controlled,0,,13,3,1.07
+Ambiguous,Functional adjustment,4,Number spinner,Controlled,A608,6062,controlled,0,,14,4,0.78
+Ambiguous,Functional adjustment,4,Text box,Open,A608,6062,controlled,0,,14,4,0.78
+Ambiguous,Functional adjustment,4,Checkbox,Predetermined,A608,6062,controlled,0,,14,4,0.78
+Ambiguous,Functional adjustment,4,Number spinner,Controlled,Z539,6062,controlled,1,Not related,15,5,1.07
+Ambiguous,Functional adjustment,4,Text box,Open,Z539,6062,controlled,1,Not related,15,5,1.07
+Ambiguous,Functional adjustment,4,Checkbox,Predetermined,Z539,6062,controlled,1,Not related,15,5,1.07
+Excess,Data loss,2,Text box,Open,P041,6062,employee,0,,1,1,2.18
+Excess,Data loss,2,Text box,Open,S716,6062,employee,0,,2,2,0.98
+Excess,Data loss,2,Text box,Open,V906,6062,employee,0,,3,3,0.9
+Excess,Data loss,2,Text box,Open,X971,6062,employee,0,,4,4,0.8
+Excess,Data loss,2,Text box,Open,S967,6062,employee,0,,5,5,0.69
+Nonstandard,Data adjustment,4,Date picker,Controlled,X260,6062,employee,0,,6,1,0.97
+Nonstandard,Data adjustment,3,Date picker,Controlled,O327,6062,employee,0,,7,2,0.85
+Nonstandard,Data adjustment,3,Date picker,Controlled,G131,6062,employee,0,,8,3,0.75
+Nonstandard,Data adjustment,4,Date picker,Controlled,F708,6062,employee,0,,9,4,0.8
+Nonstandard,Data adjustment,3,Date picker,Controlled,H055,6062,employee,0,,10,5,0.64
+Implicit,Fallback,2,Text box,Open,P900,6062,employee,0,,11,1,1.07
+Implicit,Fallback,2,Text box,Open,K334,6062,employee,0,,12,2,1.44
+Implicit,Fallback,2,Text box,Open,R981,6062,employee,0,,13,3,0.97
+Implicit,Fallback,2,Text box,Open,I974,6062,employee,0,,14,4,0.8
+Implicit,Fallback,2,Text box,Open,G809,6062,employee,0,,15,5,0.69
+Implicit,Data adjustment,4,Date picker,Controlled,G319,6319,conference,0,,1,1,3.2
+Implicit,Data adjustment,4,Date picker,Controlled,K534,6319,conference,0,,2,2,2.09
+Implicit,Data adjustment,3,Date picker,Controlled,B897,6319,conference,0,,3,3,1.09
+Implicit,Data adjustment,3,Date picker,Controlled,H784,6319,conference,0,,4,4,1.83
+Implicit,Data adjustment,3,Date picker,Controlled,C132,6319,conference,0,,5,5,0.76
+Outlier,Data adjustment,3,Number spinner,Controlled,W273,6319,conference,0,,6,1,2.15
+Outlier,Data adjustment,3,Number spinner,Controlled,V502,6319,conference,0,,7,2,1.41
+Outlier,Data adjustment,3,Number spinner,Controlled,C012,6319,conference,0,,8,3,0.78
+Outlier,Data adjustment,3,Number spinner,Controlled,R884,6319,conference,0,,9,4,1.5
+Outlier,Data adjustment,3,Number spinner,Controlled,O507,6319,conference,0,,10,5,0.78
+Ambiguous,Data loss,1,Combo box,Predetermined,X559,6319,conference,0,,11,1,1.65
+Ambiguous,Data loss,2,Radio button,Predetermined,X559,6319,conference,0,,11,1,1.65
+Ambiguous,Data loss,1,Combo box,Predetermined,F546,6319,conference,0,,12,2,0.78
+Ambiguous,Data loss,2,Radio button,Predetermined,F546,6319,conference,0,,12,2,0.78
+Ambiguous,Data loss,1,Combo box,Predetermined,E669,6319,conference,0,,13,3,1.72
+Ambiguous,Data loss,2,Radio button,Predetermined,E669,6319,conference,0,,13,3,1.72
+Ambiguous,Data loss,1,Combo box,Predetermined,L328,6319,conference,0,,14,4,0.78
+Ambiguous,Data loss,2,Radio button,Predetermined,L328,6319,conference,0,,14,4,0.78
+Ambiguous,Data loss,1,Combo box,Predetermined,Q471,6319,conference,0,,15,5,0.7
+Ambiguous,Data loss,2,Radio button,Predetermined,Q471,6319,conference,0,,15,5,0.7
+Excess,Data loss,2,Text box,Open,P431,6319,employee,0,,1,1,1.24
+Excess,Data loss,2,Text box,Open,A016,6319,employee,0,,2,2,0.73
+Excess,Data loss,2,Text box,Open,E068,6319,employee,0,,3,3,1.42
+Excess,Data loss,2,Text box,Open,R304,6319,employee,0,,4,4,1.3
+Excess,Data loss,2,Text box,Open,P325,6319,employee,0,,5,5,0.73
+Nonstandard,Data adjustment,4,Date picker,Controlled,S041,6319,employee,0,,6,1,1.2
+Nonstandard,Data adjustment,3,Date picker,Controlled,A193,6319,employee,0,,7,2,2.06
+Nonstandard,Data adjustment,3,Date picker,Controlled,H981,6319,employee,0,,8,3,0.77
+Nonstandard,Data adjustment,4,Date picker,Controlled,O316,6319,employee,0,,9,4,0.83
+Nonstandard,Data adjustment,3,Date picker,Controlled,W640,6319,employee,0,,10,5,0.8
+Implicit,Data loss,2,Checkbox,Predetermined,U666,6319,employee,0,,11,1,1.2
+Implicit,Data loss,2,Checkbox,Predetermined,K459,6319,employee,0,,12,2,1.15
+Implicit,Data loss,2,Checkbox,Predetermined,X539,6319,employee,0,,13,3,0.82
+Implicit,Data loss,2,Checkbox,Predetermined,Z127,6319,employee,0,,14,4,0.79
+Implicit,Data loss,2,Checkbox,Predetermined,S479,6319,employee,0,,15,5,0.86
+Outlier,Data adjustment,2,Slider,Controlled,K806,6319,predetermined,0,,1,1,2.91
+Outlier,Functional adjustment,3,Checkbox,Predetermined,K806,6319,predetermined,0,,1,1,2.91
+Outlier,Data adjustment,2,Slider,Controlled,Y464,6319,predetermined,0,,2,2,0.36
+Outlier,Functional adjustment,3,Checkbox,Predetermined,Y464,6319,predetermined,0,,2,2,0.36
+Outlier,Data adjustment,2,Slider,Controlled,R794,6319,predetermined,0,,3,3,0.22
+Outlier,Functional adjustment,3,Checkbox,Predetermined,R794,6319,predetermined,0,,3,3,0.22
+Outlier,Data adjustment,2,Slider,Controlled,X100,6319,predetermined,0,,4,4,0.22
+Outlier,Functional adjustment,3,Checkbox,Predetermined,X100,6319,predetermined,0,,4,4,0.22
+Outlier,Data adjustment,2,Slider,Controlled,B324,6319,predetermined,0,,5,5,0.26
+Outlier,Functional adjustment,3,Checkbox,Predetermined,B324,6319,predetermined,0,,5,5,0.26
+Nonstandard,Functional adjustment,4,Text box,Open,H689,6319,predetermined,0,,6,1,0.36
+Nonstandard,Functional adjustment,4,Text box,Open,Y738,6319,predetermined,0,,7,2,0.31
+Nonstandard,Functional adjustment,4,Text box,Open,J954,6319,predetermined,0,,8,3,0.38
+Nonstandard,Functional adjustment,4,Text box,Open,T042,6319,predetermined,0,,9,4,0.29
+Nonstandard,Functional adjustment,4,Text box,Open,L274,6319,predetermined,0,,10,5,0.24
+Excess,Functional adjustment,4,Text box,Open,U000,6319,predetermined,0,,11,1,1.01
+Excess,Functional adjustment,4,Text box,Open,A040,6319,predetermined,0,,12,2,1.03
+Excess,Functional adjustment,4,Text box,Open,A709,6319,predetermined,0,,13,3,0.77
+Excess,Functional adjustment,4,Text box,Open,I240,6319,predetermined,0,,14,4,0.67
+Excess,Functional adjustment,4,Text box,Open,W781,6319,predetermined,0,,15,5,0.96
+Implicit,Data adjustment,3,Date picker,Controlled,F502,7193,conference,0,,1,1,1.72
+Implicit,Data adjustment,3,Date picker,Controlled,H977,7193,conference,0,,2,2,1.26
+Implicit,Data adjustment,4,Date picker,Controlled,E969,7193,conference,0,,3,3,1.34
+Implicit,Data adjustment,3,Date picker,Controlled,Q349,7193,conference,0,,4,4,1.03
+Implicit,Data adjustment,4,Date picker,Controlled,J115,7193,conference,0,,5,5,1.11
+Outlier,Data adjustment,3,Number spinner,Controlled,V342,7193,conference,0,,6,1,1.22
+Outlier,Fallback,3,Text box,Open,V342,7193,conference,0,,6,1,1.22
+Outlier,Data adjustment,3,Number spinner,Controlled,B516,7193,conference,0,,7,2,1.83
+Outlier,Fallback,3,Text box,Open,B516,7193,conference,0,,7,2,1.83
+Outlier,Data adjustment,3,Number spinner,Controlled,Q888,7193,conference,0,,8,3,1.57
+Outlier,Fallback,3,Text box,Open,Q888,7193,conference,0,,8,3,1.57
+Outlier,Data adjustment,3,Number spinner,Controlled,R970,7193,conference,0,,9,4,1.11
+Outlier,Fallback,3,Text box,Open,R970,7193,conference,0,,9,4,1.11
+Outlier,Data adjustment,3,Number spinner,Controlled,P704,7193,conference,0,,10,5,0.84
+Outlier,Fallback,3,Text box,Open,P704,7193,conference,0,,10,5,0.84
+Ambiguous,Data adjustment,2,Combo box,Predetermined,K870,7193,conference,0,,11,1,1.99
+Ambiguous,Fallback,3,Text box,Open,K870,7193,conference,0,,11,1,1.99
+Ambiguous,Data adjustment,2,Combo box,Predetermined,S481,7193,conference,0,,12,2,0.95
+Ambiguous,Fallback,3,Text box,Open,S481,7193,conference,0,,12,2,0.95
+Ambiguous,Data adjustment,2,Combo box,Predetermined,M006,7193,conference,0,,13,3,0.99
+Ambiguous,Fallback,3,Text box,Open,M006,7193,conference,0,,13,3,0.99
+Ambiguous,Data adjustment,2,Combo box,Predetermined,M260,7193,conference,0,,14,4,1.38
+Ambiguous,Fallback,3,Text box,Open,M260,7193,conference,0,,14,4,1.38
+Ambiguous,Data adjustment,2,Combo box,Predetermined,P934,7193,conference,0,,15,5,0.84
+Ambiguous,Fallback,3,Text box,Open,P934,7193,conference,0,,15,5,0.84
+Excess,Data adjustment,3,Text box,Open,I529,7193,employee,0,,1,1,1.39
+Excess,Fallback,3,Text box,Open,I529,7193,employee,0,,1,1,1.39
+Excess,Data adjustment,3,Text box,Open,A351,7193,employee,0,,2,2,0.97
+Excess,Fallback,3,Text box,Open,A351,7193,employee,0,,2,2,0.97
+Excess,Data adjustment,3,Text box,Open,Y852,7193,employee,0,,3,3,0.84
+Excess,Fallback,3,Text box,Open,Y852,7193,employee,0,,3,3,0.84
+Excess,Data adjustment,3,Text box,Open,O755,7193,employee,0,,4,4,0.97
+Excess,Fallback,3,Text box,Open,O755,7193,employee,0,,4,4,0.97
+Excess,Data adjustment,3,Text box,Open,J604,7193,employee,0,,5,5,0.84
+Excess,Fallback,3,Text box,Open,J604,7193,employee,0,,5,5,0.84
+Implicit,Fallback,3,Text box,Open,P197,7193,employee,0,,6,1,1.61
+Implicit,Fallback,3,Text box,Open,V209,7193,employee,0,,7,2,1.63
+Implicit,Fallback,3,Text box,Open,T571,7193,employee,0,,8,3,0.84
+Implicit,Fallback,3,Text box,Open,C527,7193,employee,0,,9,4,0.68
+Implicit,Fallback,3,Text box,Open,O215,7193,employee,0,,10,5,0.84
+Explicit,Fallback,3,Text box,Open,W716,7193,employee,0,,11,1,1.13
+Explicit,Fallback,3,Text box,Open,U987,7193,employee,0,,12,2,1.05
+Explicit,Fallback,3,Text box,Open,J959,7193,employee,0,,13,3,1.08
+Explicit,Fallback,3,Text box,Open,C762,7193,employee,0,,14,4,1.18
+Explicit,Fallback,3,Text box,Open,F791,7193,employee,0,,15,5,0.84
+Implicit,Functional adjustment,4,Text box,Open,L124,7193,open,0,,1,1,1.52
+Implicit,Functional adjustment,4,Text box,Open,J153,7193,open,0,,2,2,1.05
+Implicit,Functional adjustment,4,Text box,Open,Y675,7193,open,0,,3,3,1.05
+Implicit,Functional adjustment,4,Text box,Open,R715,7193,open,0,,4,4,0.71
+Implicit,Functional adjustment,4,Text box,Open,C830,7193,open,0,,5,5,0.52
+Outlier,No workaround,N/A,N/A,N/A,R705,7193,open,0,,6,1,1.24
+Outlier,No workaround,N/A,N/A,N/A,A842,7193,open,0,,7,2,0.71
+Outlier,No workaround,N/A,N/A,N/A,W930,7193,open,0,,8,3,0.48
+Outlier,No workaround,N/A,N/A,N/A,N222,7193,open,0,,9,4,0.71
+Outlier,No workaround,N/A,N/A,N/A,N196,7193,open,0,,10,5,0.62
+Ambiguous,Functional adjustment,4,Text box,Open,A560,7193,open,0,,11,1,1.33
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,A560,7193,open,0,,11,1,1.33
+Ambiguous,Functional adjustment,4,Text box,Open,F188,7193,open,0,,12,2,0.95
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,F188,7193,open,0,,12,2,0.95
+Ambiguous,Functional adjustment,4,Text box,Open,W535,7193,open,0,,13,3,1.05
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,W535,7193,open,0,,13,3,1.05
+Ambiguous,Functional adjustment,4,Text box,Open,G615,7193,open,0,,14,4,0.81
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,G615,7193,open,0,,14,4,0.81
+Ambiguous,Functional adjustment,4,Text box,Open,K985,7193,open,0,,15,5,0.62
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,K985,7193,open,0,,15,5,0.62
+Implicit,Data adjustment,3,Date picker,Controlled,T473,7842,conference,0,,1,1,0.98
+Implicit,Data adjustment,4,Date picker,Controlled,N966,7842,conference,0,,2,2,1.19
+Implicit,Data adjustment,4,Date picker,Controlled,K483,7842,conference,0,,3,3,1.07
+Implicit,Data adjustment,3,Date picker,Controlled,V507,7842,conference,0,,4,4,1.36
+Implicit,Data adjustment,4,Date picker,Controlled,K062,7842,conference,0,,5,5,0.98
+Nonstandard,Data adjustment,3,Slider,Controlled,E831,7842,conference,0,,6,1,1.43
+Nonstandard,Data adjustment,3,Slider,Controlled,Z682,7842,conference,0,,7,2,1.29
+Nonstandard,Data adjustment,3,Slider,Controlled,U472,7842,conference,0,,8,3,1.02
+Nonstandard,Data adjustment,3,Slider,Controlled,F363,7842,conference,0,,9,4,0.6
+Nonstandard,Data adjustment,3,Slider,Controlled,D030,7842,conference,0,,10,5,0.71
+Ambiguous,Fallback,3,Text box,Open,J639,7842,conference,0,,11,1,1.81
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,J639,7842,conference,0,,11,1,1.81
+Ambiguous,Fallback,3,Text box,Open,H979,7842,conference,0,,12,2,0.76
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,H979,7842,conference,0,,12,2,0.76
+Ambiguous,Fallback,3,Text box,Open,K506,7842,conference,0,,13,3,0.71
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,K506,7842,conference,0,,13,3,0.71
+Ambiguous,Fallback,3,Text box,Open,O512,7842,conference,0,,14,4,1.31
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,O512,7842,conference,0,,14,4,1.31
+Ambiguous,Fallback,3,Text box,Open,H240,7842,conference,0,,15,5,0.86
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,H240,7842,conference,0,,15,5,0.86
+Nonstandard,Data adjustment,4,Date picker,Controlled,U172,7842,employee,0,,1,1,1.23
+Nonstandard,Data adjustment,4,Date picker,Controlled,H324,7842,employee,0,,2,2,1
+Nonstandard,Data adjustment,3,Date picker,Controlled,J349,7842,employee,0,,3,3,1.19
+Nonstandard,Data adjustment,4,Date picker,Controlled,E726,7842,employee,0,,4,4,1.76
+Nonstandard,Data adjustment,3,Date picker,Controlled,L621,7842,employee,0,,5,5,1.21
+Explicit,Functional adjustment,4,Combo box,Predetermined,B992,7842,employee,0,,6,1,1.33
+Explicit,Functional adjustment,4,Combo box,Predetermined,F825,7842,employee,0,,7,2,0.87
+Explicit,Functional adjustment,4,Combo box,Predetermined,S770,7842,employee,0,,8,3,0.81
+Explicit,Functional adjustment,4,Combo box,Predetermined,Z536,7842,employee,0,,9,4,1.19
+Explicit,Functional adjustment,4,Combo box,Predetermined,L142,7842,employee,0,,10,5,0.89
+Ambiguous,Data loss,1,Text box,Open,X662,7842,employee,0,,11,1,1.31
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,X662,7842,employee,0,,11,1,1.31
+Ambiguous,Data loss,1,Text box,Open,B310,7842,employee,0,,12,2,2.44
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,B310,7842,employee,0,,12,2,2.44
+Ambiguous,Data loss,1,Text box,Open,S358,7842,employee,0,,13,3,1.33
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,S358,7842,employee,0,,13,3,1.33
+Ambiguous,Data loss,1,Text box,Open,X541,7842,employee,0,,14,4,1.21
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,X541,7842,employee,0,,14,4,1.21
+Ambiguous,Data loss,1,Text box,Open,C382,7842,employee,0,,15,5,1.59
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,C382,7842,employee,0,,15,5,1.59
+Implicit,Functional adjustment,4,Text box,Open,X424,7842,open,1,Not related,1,1,5.4
+Implicit,Data loss,2,Text box,Open,F339,7842,open,0,,2,2,1.19
+Implicit,Functional adjustment,4,Text box,Open,Y483,7842,open,0,,3,3,1.31
+Implicit,Functional adjustment,4,Text box,Open,V320,7842,open,0,,4,4,0.88
+Implicit,Functional adjustment,4,Text box,Open,I268,7842,open,0,,5,5,1.21
+Excess,Functional adjustment,3,Checkbox,Predetermined,P693,7842,open,0,,6,1,0.74
+Excess,Functional adjustment,3,Checkbox,Predetermined,B112,7842,open,0,,7,2,0.69
+Excess,Functional adjustment,3,Checkbox,Predetermined,L166,7842,open,0,,8,3,0.74
+Excess,Functional adjustment,3,Checkbox,Predetermined,F471,7842,open,0,,9,4,0.93
+Excess,Functional adjustment,3,Checkbox,Predetermined,O083,7842,open,0,,10,5,0.64
+Ambiguous,Functional adjustment,4,Text box,Open,N538,7842,open,0,,11,1,1.24
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,N538,7842,open,0,,11,1,1.24
+Ambiguous,Functional adjustment,4,Text box,Open,B137,7842,open,0,,12,2,1.29
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,B137,7842,open,0,,12,2,1.29
+Ambiguous,Functional adjustment,4,Text box,Open,A984,7842,open,0,,13,3,1.14
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,A984,7842,open,0,,13,3,1.14
+Ambiguous,Functional adjustment,4,Text box,Open,F027,7842,open,0,,14,4,1.17
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,F027,7842,open,0,,14,4,1.17
+Ambiguous,Functional adjustment,4,Text box,Open,L075,7842,open,0,,15,5,0.98
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,L075,7842,open,0,,15,5,0.98
+Implicit,Data adjustment,4,Date picker,Controlled,I855,7904,conference,0,,1,1,4.82
+Implicit,Data adjustment,4,Date picker,Controlled,A337,7904,conference,0,,2,2,2
+Implicit,Data adjustment,4,Date picker,Controlled,S677,7904,conference,0,,3,3,1.64
+Implicit,Data adjustment,4,Date picker,Controlled,H602,7904,conference,0,,4,4,2.15
+Implicit,Data adjustment,4,Date picker,Controlled,T569,7904,conference,0,,5,5,1.36
+Nonstandard,Data adjustment,3,Slider,Controlled,S769,7904,conference,0,,6,1,1.15
+Nonstandard,Data adjustment,3,Slider,Controlled,Q488,7904,conference,0,,7,2,1.21
+Nonstandard,Data adjustment,3,Slider,Controlled,Q389,7904,conference,0,,8,3,0.88
+Nonstandard,Data adjustment,3,Slider,Controlled,J028,7904,conference,0,,9,4,0.67
+Nonstandard,Data adjustment,3,Slider,Controlled,X067,7904,conference,0,,10,5,0.82
+Excess,Functional adjustment,4,Combo box,Predetermined,J410,7904,conference,1,Not related,11,1,1.97
+Excess,Functional adjustment,4,Combo box,Predetermined,I142,7904,conference,0,,12,2,1.03
+Excess,Functional adjustment,4,Combo box,Predetermined,H900,7904,conference,0,,13,3,1.15
+Excess,Functional adjustment,4,Combo box,Predetermined,G514,7904,conference,0,,14,4,0.94
+Excess,Functional adjustment,4,Combo box,Predetermined,N136,7904,conference,0,,15,5,1.09
+Nonstandard,Data adjustment,4,Date picker,Controlled,C894,7904,employee,1,Not related,1,1,1.25
+Nonstandard,Data loss,2,Date picker,Controlled,O014,7904,employee,0,,2,2,1.94
+Nonstandard,Data loss,2,Date picker,Controlled,Q143,7904,employee,0,,3,3,1.25
+Nonstandard,Data loss,2,Date picker,Controlled,K673,7904,employee,0,,4,4,0.89
+Nonstandard,Data adjustment,4,Date picker,Controlled,I382,7904,employee,0,,5,5,1.42
+Outlier,Data loss,2,Slider,Controlled,L148,7904,employee,0,,6,1,0.97
+Outlier,Data loss,2,Slider,Controlled,X670,7904,employee,0,,7,2,0.72
+Outlier,Data loss,2,Slider,Controlled,S325,7904,employee,0,,8,3,0.81
+Outlier,Data loss,2,Slider,Controlled,M765,7904,employee,0,,9,4,0.69
+Outlier,Data loss,2,Slider,Controlled,S820,7904,employee,0,,10,5,1.14
+Explicit,Data loss,2,Combo box,Predetermined,J641,7904,employee,0,,11,1,0.86
+Explicit,Data loss,2,Combo box,Predetermined,L742,7904,employee,0,,12,2,0.83
+Explicit,Data loss,2,Combo box,Predetermined,X745,7904,employee,0,,13,3,1.06
+Explicit,Data loss,2,Combo box,Predetermined,B993,7904,employee,0,,14,4,0.81
+Explicit,Data loss,2,Combo box,Predetermined,N446,7904,employee,0,,15,5,0.83
+Implicit,Data adjustment,4,Text box,Open,S504,7904,open,0,,1,1,1.29
+Implicit,Fallback,3,Text box,Open,S504,7904,open,0,,1,1,1.29
+Implicit,Data adjustment,4,Text box,Open,K523,7904,open,0,,2,2,1.12
+Implicit,Fallback,3,Text box,Open,K523,7904,open,0,,2,2,1.12
+Implicit,Data adjustment,4,Text box,Open,G347,7904,open,0,,3,3,1.12
+Implicit,Fallback,3,Text box,Open,G347,7904,open,0,,3,3,1.12
+Implicit,Data adjustment,4,Text box,Open,X324,7904,open,0,,4,4,1.18
+Implicit,Fallback,3,Text box,Open,X324,7904,open,0,,4,4,1.18
+Implicit,Data adjustment,4,Text box,Open,U381,7904,open,0,,5,5,1.29
+Implicit,Fallback,3,Text box,Open,U381,7904,open,0,,5,5,1.29
+Outlier,Data loss,2,Checkbox,Predetermined,B602,7904,open,0,,6,1,1.18
+Outlier,Functional adjustment,4,Checkbox,Predetermined,Y590,7904,open,0,,7,2,1.24
+Outlier,No workaround,N/A,N/A,N/A,B921,7904,open,0,,8,3,1.71
+Outlier,No workaround,N/A,N/A,N/A,G705,7904,open,0,,9,4,1.12
+Outlier,No workaround,N/A,N/A,N/A,Q746,7904,open,0,,10,5,0.76
+Excess,Functional adjustment,3,Checkbox,Predetermined,G484,7904,open,0,,11,1,1.12
+Excess,Functional adjustment,3,Checkbox,Predetermined,C590,7904,open,0,,12,2,1.06
+Excess,Functional adjustment,3,Checkbox,Predetermined,T403,7904,open,0,,13,3,1
+Excess,Functional adjustment,3,Checkbox,Predetermined,O419,7904,open,0,,14,4,1
+Excess,Functional adjustment,3,Checkbox,Predetermined,F171,7904,open,0,,15,5,0.88
+Explicit,Data loss,2,Radio button,Predetermined,K963,8176,conference,0,,1,1,1.26
+Explicit,Data loss,2,Radio button,Predetermined,U947,8176,conference,0,,2,2,0.95
+Explicit,Data loss,2,Radio button,Predetermined,R908,8176,conference,0,,3,3,0.63
+Explicit,Data loss,2,Radio button,Predetermined,E488,8176,conference,0,,4,4,1.03
+Explicit,Data loss,2,Radio button,Predetermined,B067,8176,conference,0,,5,5,1.05
+Nonstandard,No workaround,N/A,N/A,N/A,F672,8176,conference,0,,6,1,1.79
+Nonstandard,Data adjustment,3,Slider,Controlled,S387,8176,conference,0,,7,2,1.11
+Nonstandard,Data adjustment,3,Slider,Controlled,Q327,8176,conference,0,,8,3,0.95
+Nonstandard,Data adjustment,3,Slider,Controlled,N665,8176,conference,0,,9,4,1
+Nonstandard,Data adjustment,3,Slider,Controlled,F234,8176,conference,0,,10,5,0.84
+Ambiguous,Data loss,2,Radio button,Predetermined,G628,8176,conference,0,,11,1,1.47
+Ambiguous,Fallback,3,Text box,Open,G628,8176,conference,0,,11,1,1.47
+Ambiguous,Data loss,2,Radio button,Predetermined,O673,8176,conference,0,,12,2,0.95
+Ambiguous,Fallback,3,Text box,Open,O673,8176,conference,0,,12,2,0.95
+Ambiguous,Data loss,2,Radio button,Predetermined,D504,8176,conference,0,,13,3,1
+Ambiguous,Fallback,3,Text box,Open,D504,8176,conference,0,,13,3,1
+Ambiguous,Data loss,2,Radio button,Predetermined,M649,8176,conference,0,,14,4,1.08
+Ambiguous,Fallback,3,Text box,Open,M649,8176,conference,0,,14,4,1.08
+Ambiguous,Data loss,2,Radio button,Predetermined,O561,8176,conference,0,,15,5,1.08
+Ambiguous,Fallback,3,Text box,Open,O561,8176,conference,0,,15,5,1.08
+Explicit,Data adjustment,3,Number spinner,Controlled,X742,8176,controlled,0,,1,1,2.35
+Explicit,Fallback,3,Text box,Open,X742,8176,controlled,0,,1,1,2.35
+Explicit,Data adjustment,3,Number spinner,Controlled,W983,8176,controlled,0,,2,2,1.39
+Explicit,Fallback,3,Text box,Open,W983,8176,controlled,0,,2,2,1.39
+Explicit,Data adjustment,3,Number spinner,Controlled,Y266,8176,controlled,0,,3,3,0.65
+Explicit,Fallback,3,Text box,Open,Y266,8176,controlled,0,,3,3,0.65
+Explicit,Data adjustment,3,Number spinner,Controlled,L907,8176,controlled,0,,4,4,0.65
+Explicit,Fallback,3,Text box,Open,L907,8176,controlled,0,,4,4,0.65
+Explicit,Data adjustment,3,Number spinner,Controlled,N833,8176,controlled,0,,5,5,1.78
+Explicit,Fallback,3,Text box,Open,N833,8176,controlled,0,,5,5,1.78
+Nonstandard,Fallback,3,Checkbox,Predetermined,V494,8176,controlled,0,,6,1,5.22
+Nonstandard,Functional adjustment,3,Text box,Open,V494,8176,controlled,0,,6,1,5.22
+Nonstandard,Fallback,3,Checkbox,Predetermined,Z312,8176,controlled,0,,7,2,0.35
+Nonstandard,Functional adjustment,3,Text box,Open,Z312,8176,controlled,0,,7,2,0.35
+Nonstandard,Fallback,3,Checkbox,Predetermined,A712,8176,controlled,0,,8,3,0.65
+Nonstandard,Functional adjustment,3,Text box,Open,A712,8176,controlled,0,,8,3,0.65
+Nonstandard,Fallback,3,Checkbox,Predetermined,W433,8176,controlled,0,,9,4,0.65
+Nonstandard,Functional adjustment,3,Text box,Open,W433,8176,controlled,0,,9,4,0.65
+Nonstandard,Fallback,3,Checkbox,Predetermined,E547,8176,controlled,0,,10,5,0.26
+Nonstandard,Functional adjustment,3,Text box,Open,E547,8176,controlled,0,,10,5,0.26
+Excess,Fallback,3,Text box,Open,Y185,8176,controlled,0,,11,1,1.04
+Excess,Functional adjustment,3,Checkbox,Predetermined,Y185,8176,controlled,0,,11,1,1.04
+Excess,Fallback,3,Text box,Open,M806,8176,controlled,0,,12,2,1
+Excess,Functional adjustment,3,Checkbox,Predetermined,M806,8176,controlled,0,,12,2,1
+Excess,Fallback,3,Text box,Open,B329,8176,controlled,0,,13,3,0.7
+Excess,Functional adjustment,3,Checkbox,Predetermined,B329,8176,controlled,0,,13,3,0.7
+Excess,Fallback,3,Text box,Open,K251,8176,controlled,0,,14,4,0.96
+Excess,Functional adjustment,3,Checkbox,Predetermined,K251,8176,controlled,0,,14,4,0.96
+Excess,Fallback,3,Text box,Open,X182,8176,controlled,0,,15,5,0.87
+Excess,Functional adjustment,3,Checkbox,Predetermined,X182,8176,controlled,0,,15,5,0.87
+Nonstandard,Data adjustment,4,Date picker,Controlled,V637,8176,employee,0,,1,1,0.99
+Nonstandard,Data adjustment,3,Date picker,Controlled,S212,8176,employee,0,,2,2,2.02
+Nonstandard,Data adjustment,3,Date picker,Controlled,M561,8176,employee,0,,3,3,0.81
+Nonstandard,Data adjustment,4,Date picker,Controlled,E399,8176,employee,0,,4,4,0.88
+Nonstandard,Data adjustment,3,Date picker,Controlled,O226,8176,employee,0,,5,5,0.46
+Implicit,Data adjustment,3,Checkbox,Predetermined,Z887,8176,employee,1,Systematic,6,1,1.69
+Implicit,Fallback,3,Text box,Open,Z887,8176,employee,1,Systematic,6,1,1.69
+Implicit,Data adjustment,3,Checkbox,Predetermined,M775,8176,employee,1,Systematic,7,2,1.87
+Implicit,Fallback,3,Text box,Open,M775,8176,employee,1,Systematic,7,2,1.87
+Implicit,Data adjustment,3,Checkbox,Predetermined,W449,8176,employee,0,,8,3,0.75
+Implicit,Fallback,3,Text box,Open,W449,8176,employee,0,,8,3,0.75
+Implicit,Data adjustment,3,Checkbox,Predetermined,B602,8176,employee,0,,9,4,1.07
+Implicit,Fallback,3,Text box,Open,B602,8176,employee,0,,9,4,1.07
+Implicit,Data adjustment,3,Checkbox,Predetermined,K753,8176,employee,0,,10,5,0.8
+Implicit,Fallback,3,Text box,Open,K753,8176,employee,0,,10,5,0.8
+Explicit,Data loss,2,Combo box,Predetermined,A227,8176,employee,0,,11,1,1.42
+Explicit,Data loss,2,Combo box,Predetermined,G562,8176,employee,0,,12,2,0.86
+Explicit,Data loss,2,Combo box,Predetermined,S750,8176,employee,0,,13,3,3.6
+Explicit,Data loss,2,Combo box,Predetermined,T322,8176,employee,0,,14,4,1.2
+Explicit,Data loss,2,Combo box,Predetermined,G053,8176,employee,0,,15,5,0.52
+Outlier,Data adjustment,3,Number spinner,Controlled,N530,8532,conference,0,,1,1,1.23
+Outlier,Fallback,3,Text box,Open,N530,8532,conference,0,,1,1,1.23
+Outlier,Data adjustment,3,Number spinner,Controlled,J323,8532,conference,0,,2,2,2.09
+Outlier,Fallback,3,Text box,Open,J323,8532,conference,0,,2,2,2.09
+Outlier,Data adjustment,3,Number spinner,Controlled,Y645,8532,conference,0,,3,3,3.56
+Outlier,Fallback,3,Text box,Open,Y645,8532,conference,0,,3,3,3.56
+Outlier,Data adjustment,3,Number spinner,Controlled,S724,8532,conference,0,,4,4,1.03
+Outlier,Fallback,3,Text box,Open,S724,8532,conference,0,,4,4,1.03
+Outlier,Data adjustment,3,Number spinner,Controlled,M002,8532,conference,0,,5,5,1.11
+Outlier,Fallback,3,Text box,Open,M002,8532,conference,0,,5,5,1.11
+Nonstandard,Data adjustment,3,Slider,Controlled,W138,8532,conference,1,Not related,6,1,1.15
+Nonstandard,Data adjustment,3,Slider,Controlled,D127,8532,conference,0,,7,2,1.15
+Nonstandard,Data adjustment,3,Slider,Controlled,B387,8532,conference,0,,8,3,0.83
+Nonstandard,Data adjustment,3,Slider,Controlled,I008,8532,conference,0,,9,4,0.75
+Nonstandard,Data adjustment,3,Slider,Controlled,G250,8532,conference,1,Not related,10,5,0.71
+Ambiguous,Fallback,3,Text box,Open,V222,8532,conference,0,,11,1,1.98
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,V222,8532,conference,0,,11,1,1.98
+Ambiguous,Fallback,3,Text box,Open,E158,8532,conference,0,,12,2,1.74
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,E158,8532,conference,0,,12,2,1.74
+Ambiguous,Fallback,3,Text box,Open,I240,8532,conference,0,,13,3,1.11
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,I240,8532,conference,0,,13,3,1.11
+Ambiguous,Fallback,3,Text box,Open,U381,8532,conference,0,,14,4,1.07
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,U381,8532,conference,0,,14,4,1.07
+Ambiguous,Fallback,3,Text box,Open,J543,8532,conference,0,,15,5,0.91
+Ambiguous,Functional adjustment,4,Combo box,Predetermined,J543,8532,conference,0,,15,5,0.91
+Nonstandard,Data adjustment,3,Date picker,Controlled,F486,8532,employee,0,,1,1,1.39
+Nonstandard,Data adjustment,4,Date picker,Controlled,L177,8532,employee,0,,2,2,1.33
+Nonstandard,Data adjustment,3,Date picker,Controlled,A617,8532,employee,0,,3,3,1.25
+Nonstandard,Data adjustment,4,Date picker,Controlled,A047,8532,employee,0,,4,4,0.94
+Nonstandard,Data adjustment,4,Date picker,Controlled,Z636,8532,employee,0,,5,5,1
+Outlier,Data adjustment,3,Slider,Controlled,Z364,8532,employee,1,Systematic,6,1,2.11
+Outlier,Fallback,3,Text box,Open,Z364,8532,employee,1,Systematic,6,1,2.11
+Outlier,Data adjustment,3,Slider,Controlled,H378,8532,employee,0,,7,2,0.92
+Outlier,Fallback,3,Text box,Open,H378,8532,employee,0,,7,2,0.92
+Outlier,Data adjustment,3,Slider,Controlled,Z833,8532,employee,0,,8,3,0.86
+Outlier,Fallback,3,Text box,Open,Z833,8532,employee,0,,8,3,0.86
+Outlier,Data adjustment,3,Slider,Controlled,S579,8532,employee,0,,9,4,0.69
+Outlier,Fallback,3,Text box,Open,S579,8532,employee,0,,9,4,0.69
+Outlier,Data adjustment,3,Slider,Controlled,O635,8532,employee,0,,10,5,0.89
+Outlier,Fallback,3,Text box,Open,O635,8532,employee,0,,10,5,0.89
+Explicit,Functional adjustment,4,Combo box,Predetermined,X532,8532,employee,0,,11,1,1.61
+Explicit,Functional adjustment,4,Combo box,Predetermined,E239,8532,employee,0,,12,2,0.81
+Explicit,Functional adjustment,4,Combo box,Predetermined,A699,8532,employee,0,,13,3,1.03
+Explicit,Functional adjustment,4,Combo box,Predetermined,Q731,8532,employee,0,,14,4,0.81
+Explicit,Functional adjustment,4,Combo box,Predetermined,W618,8532,employee,0,,15,5,0.92
+Outlier,Data adjustment,3,Number spinner,Controlled,V336,8532,predetermined,1,Systematic,1,1,1.65
+Outlier,Fallback,3,Text box,Open,V336,8532,predetermined,1,Systematic,1,1,1.65
+Outlier,Functional adjustment,4,Checkbox,Predetermined,V336,8532,predetermined,1,Systematic,1,1,1.65
+Outlier,Data adjustment,3,Number spinner,Controlled,K539,8532,predetermined,0,,2,2,0.65
+Outlier,Fallback,3,Text box,Open,K539,8532,predetermined,0,,2,2,0.65
+Outlier,Functional adjustment,4,Checkbox,Predetermined,K539,8532,predetermined,0,,2,2,0.65
+Outlier,Data adjustment,3,Number spinner,Controlled,Z597,8532,predetermined,0,,3,3,0.44
+Outlier,Fallback,3,Text box,Open,Z597,8532,predetermined,0,,3,3,0.44
+Outlier,Functional adjustment,4,Checkbox,Predetermined,Z597,8532,predetermined,0,,3,3,0.44
+Outlier,Data adjustment,3,Number spinner,Controlled,E164,8532,predetermined,0,,4,4,0.5
+Outlier,Fallback,3,Text box,Open,E164,8532,predetermined,0,,4,4,0.5
+Outlier,Functional adjustment,4,Checkbox,Predetermined,E164,8532,predetermined,0,,4,4,0.5
+Outlier,Data adjustment,3,Number spinner,Controlled,I932,8532,predetermined,0,,5,5,0.65
+Outlier,Fallback,3,Text box,Open,I932,8532,predetermined,0,,5,5,0.65
+Outlier,Functional adjustment,4,Checkbox,Predetermined,I932,8532,predetermined,0,,5,5,0.65
+Nonstandard,Functional adjustment,4,Text box,Open,A155,8532,predetermined,0,,6,1,0.82
+Nonstandard,Functional adjustment,4,Text box,Open,S758,8532,predetermined,0,,7,2,0.29
+Nonstandard,Functional adjustment,4,Text box,Open,A076,8532,predetermined,0,,8,3,0.21
+Nonstandard,Functional adjustment,4,Text box,Open,B604,8532,predetermined,0,,9,4,0.18
+Nonstandard,Functional adjustment,4,Text box,Open,M900,8532,predetermined,0,,10,5,0.47
+Excess,Functional adjustment,3,Checkbox,Predetermined,Q635,8532,predetermined,1,Systematic,11,1,0.68
+Excess,Functional adjustment,3,Checkbox,Predetermined,Q635,8532,predetermined,1,Systematic,11,1,0.68
+Excess,Functional adjustment,3,Checkbox,Predetermined,U064,8532,predetermined,0,,12,2,0.94
+Excess,Functional adjustment,3,Checkbox,Predetermined,U064,8532,predetermined,0,,12,2,0.94
+Excess,Functional adjustment,4,Text box,Open,S947,8532,predetermined,0,,13,3,1.29
+Excess,Functional adjustment,4,Checkbox,Predetermined,S947,8532,predetermined,0,,13,3,1.29
+Excess,Functional adjustment,4,Text box,Open,K291,8532,predetermined,0,,14,4,0.94
+Excess,Functional adjustment,4,Checkbox,Predetermined,K291,8532,predetermined,0,,14,4,0.94
+Excess,Functional adjustment,4,Text box,Open,M872,8532,predetermined,0,,15,5,0.79
+Excess,Functional adjustment,4,Checkbox,Predetermined,M872,8532,predetermined,0,,15,5,0.79
+Explicit,Data loss,2,Radio button,Predetermined,K532,9537,conference,0,,1,1,0.76
+Explicit,Data loss,2,Radio button,Predetermined,G293,9537,conference,0,,2,2,0.83
+Explicit,Data loss,2,Radio button,Predetermined,Y472,9537,conference,0,,3,3,1.54
+Explicit,Data loss,2,Radio button,Predetermined,L687,9537,conference,0,,4,4,0.91
+Explicit,Data loss,2,Radio button,Predetermined,R543,9537,conference,0,,5,5,0.7
+Outlier,Data adjustment,3,Number spinner,Controlled,I676,9537,conference,0,,6,1,0.86
+Outlier,Data adjustment,3,Number spinner,Controlled,P276,9537,conference,0,,7,2,1.36
+Outlier,Data adjustment,3,Number spinner,Controlled,J844,9537,conference,0,,8,3,0.83
+Outlier,Data adjustment,3,Number spinner,Controlled,H796,9537,conference,0,,9,4,1.07
+Outlier,Data adjustment,3,Number spinner,Controlled,G686,9537,conference,1,Not related,10,5,0.94
+Nonstandard,Data adjustment,3,Slider,Controlled,A504,9537,conference,0,,11,1,0.96
+Nonstandard,Data adjustment,3,Slider,Controlled,B276,9537,conference,1,Not related,12,2,0.81
+Nonstandard,Data adjustment,3,Slider,Controlled,V090,9537,conference,1,Not related,13,3,1.07
+Nonstandard,Data adjustment,3,Slider,Controlled,I036,9537,conference,0,,14,4,1.17
+Nonstandard,Data adjustment,3,Slider,Controlled,V457,9537,conference,0,,15,5,1.2
+Excess,Data loss,2,Text box,Open,M872,9537,employee,0,,1,1,1.28
+Excess,Data loss,2,Text box,Open,R999,9537,employee,0,,2,2,1.15
+Excess,Data loss,2,Text box,Open,A729,9537,employee,0,,3,3,0.92
+Excess,Data loss,2,Text box,Open,T053,9537,employee,0,,4,4,1.08
+Excess,Data loss,2,Text box,Open,W480,9537,employee,0,,5,5,0.73
+Implicit,Data loss,2,Checkbox,Predetermined,R425,9537,employee,1,Not related,6,1,0.96
+Implicit,Data loss,2,Checkbox,Predetermined,Y924,9537,employee,0,,7,2,1.11
+Implicit,Data loss,2,Checkbox,Predetermined,F739,9537,employee,0,,8,3,1.28
+Implicit,Data loss,2,Checkbox,Predetermined,V675,9537,employee,1,Not related,9,4,1.31
+Implicit,Data loss,2,Checkbox,Predetermined,B178,9537,employee,0,,10,5,0.59
+Ambiguous,Data loss,1,Text box,Open,A080,9537,employee,1,Not related,11,1,1.12
+Ambiguous,Data loss,2,Combo box,Predetermined,A080,9537,employee,1,Not related,11,1,1.12
+Ambiguous,Data loss,1,Text box,Open,Z970,9537,employee,1,Not related,12,2,1.36
+Ambiguous,Data loss,2,Combo box,Predetermined,Z970,9537,employee,1,Not related,12,2,1.36
+Ambiguous,Data loss,1,Text box,Open,B477,9537,employee,0,,13,3,1.26
+Ambiguous,Data loss,2,Combo box,Predetermined,B477,9537,employee,0,,13,3,1.26
+Ambiguous,Data loss,1,Text box,Open,X917,9537,employee,0,,14,4,0.81
+Ambiguous,Data loss,2,Combo box,Predetermined,X917,9537,employee,0,,14,4,0.81
+Ambiguous,Data loss,1,Text box,Open,D672,9537,employee,1,Not related,15,5,1.14
+Ambiguous,Data loss,2,Combo box,Predetermined,D672,9537,employee,1,Not related,15,5,1.14
+Explicit,Data adjustment,2,Checkbox,Predetermined,O902,9537,predetermined,0,,1,1,1.07
+Explicit,Fallback,2,Text box,Open,O902,9537,predetermined,0,,1,1,1.07
+Explicit,Functional adjustment,3,Checkbox,Predetermined,O902,9537,predetermined,0,,1,1,1.07
+Explicit,Data adjustment,2,Checkbox,Predetermined,W974,9537,predetermined,0,,2,2,0.91
+Explicit,Fallback,2,Text box,Open,W974,9537,predetermined,0,,2,2,0.91
+Explicit,Functional adjustment,3,Checkbox,Predetermined,W974,9537,predetermined,0,,2,2,0.91
+Explicit,Data adjustment,2,Checkbox,Predetermined,Q981,9537,predetermined,0,,3,3,0.86
+Explicit,Fallback,2,Text box,Open,Q981,9537,predetermined,0,,3,3,0.86
+Explicit,Functional adjustment,3,Checkbox,Predetermined,Q981,9537,predetermined,0,,3,3,0.86
+Explicit,Data adjustment,2,Checkbox,Predetermined,W771,9537,predetermined,0,,4,4,0.79
+Explicit,Fallback,2,Text box,Open,W771,9537,predetermined,0,,4,4,0.79
+Explicit,Functional adjustment,3,Checkbox,Predetermined,W771,9537,predetermined,0,,4,4,0.79
+Explicit,Data adjustment,2,Checkbox,Predetermined,U239,9537,predetermined,0,,5,5,1.31
+Explicit,Fallback,2,Text box,Open,U239,9537,predetermined,0,,5,5,1.31
+Explicit,Functional adjustment,3,Checkbox,Predetermined,U239,9537,predetermined,0,,5,5,1.31
+Implicit,Data loss,2,Slider,Controlled,T091,9537,predetermined,2,Not related,6,1,0.86
+Implicit,Data loss,2,Slider,Controlled,L160,9537,predetermined,1,Not related,7,2,0.71
+Implicit,Data loss,2,Slider,Controlled,X013,9537,predetermined,0,,8,3,0.58
+Implicit,Data loss,2,Slider,Controlled,N563,9537,predetermined,0,,9,4,0.76
+Implicit,Data loss,2,Slider,Controlled,A334,9537,predetermined,0,,10,5,0.62
+Outlier,Data adjustment,2,Slider,Controlled,W401,9537,predetermined,1,Ad hoc,11,1,0.18
+Outlier,Fallback,2,Text box,Open,W401,9537,predetermined,1,Ad hoc,11,1,0.18
+Outlier,Functional adjustment,3,Checkbox,Predetermined,W401,9537,predetermined,1,Ad hoc,11,1,0.18
+Outlier,Data adjustment,2,Slider,Controlled,I455,9537,predetermined,0,,12,2,0.42
+Outlier,Fallback,2,Text box,Open,I455,9537,predetermined,0,,12,2,0.42
+Outlier,Functional adjustment,3,Checkbox,Predetermined,I455,9537,predetermined,0,,12,2,0.42
+Outlier,Data adjustment,2,Slider,Controlled,Y082,9537,predetermined,0,,13,3,0.21
+Outlier,Fallback,2,Text box,Open,Y082,9537,predetermined,0,,13,3,0.21
+Outlier,Functional adjustment,3,Checkbox,Predetermined,Y082,9537,predetermined,0,,13,3,0.21
+Outlier,Data adjustment,2,Slider,Controlled,O725,9537,predetermined,0,,14,4,0.21
+Outlier,Fallback,2,Text box,Open,O725,9537,predetermined,0,,14,4,0.21
+Outlier,Functional adjustment,3,Checkbox,Predetermined,O725,9537,predetermined,0,,14,4,0.21
+Outlier,Data adjustment,2,Slider,Controlled,S181,9537,predetermined,0,,15,5,0.1
+Outlier,Fallback,2,Text box,Open,S181,9537,predetermined,0,,15,5,0.1
+Outlier,Functional adjustment,3,Checkbox,Predetermined,S181,9537,predetermined,0,,15,5,0.1
+Nonstandard,Data adjustment,3,Slider,Controlled,M213,9734,conference,0,,1,1,1.91
+Nonstandard,Data adjustment,3,Slider,Controlled,V753,9734,conference,0,,2,2,1.77
+Nonstandard,Data adjustment,3,Slider,Controlled,E935,9734,conference,0,,3,3,1.06
+Nonstandard,Data adjustment,3,Slider,Controlled,C140,9734,conference,0,,4,4,0.89
+Nonstandard,Data adjustment,3,Slider,Controlled,U557,9734,conference,0,,5,5,0.72
+Excess,Data loss,2,Combo box,Predetermined,W634,9734,conference,0,,6,1,1.47
+Excess,Data loss,2,Combo box,Predetermined,I969,9734,conference,0,,7,2,1.36
+Excess,Data loss,2,Combo box,Predetermined,C232,9734,conference,0,,8,3,0.75
+Excess,Data loss,2,Combo box,Predetermined,O143,9734,conference,1,Not related,9,4,0.64
+Excess,Data loss,2,Combo box,Predetermined,P743,9734,conference,0,,10,5,0.79
+Ambiguous,Data loss,1,Combo box,Predetermined,G178,9734,conference,0,,11,1,2.83
+Ambiguous,Data loss,2,Radio button,Predetermined,G178,9734,conference,0,,11,1,2.83
+Ambiguous,Data loss,1,Combo box,Predetermined,Q230,9734,conference,0,,12,2,0.72
+Ambiguous,Data loss,2,Radio button,Predetermined,Q230,9734,conference,0,,12,2,0.72
+Ambiguous,Data loss,1,Combo box,Predetermined,A159,9734,conference,0,,13,3,0.6
+Ambiguous,Data loss,2,Radio button,Predetermined,A159,9734,conference,0,,13,3,0.6
+Ambiguous,Data loss,1,Combo box,Predetermined,W534,9734,conference,0,,14,4,0.72
+Ambiguous,Data loss,2,Radio button,Predetermined,W534,9734,conference,0,,14,4,0.72
+Ambiguous,Data loss,1,Combo box,Predetermined,T524,9734,conference,0,,15,5,0.68
+Ambiguous,Data loss,2,Radio button,Predetermined,T524,9734,conference,0,,15,5,0.68
+Excess,Data loss,2,Text box,Open,T669,9734,employee,0,,1,1,1.09
+Excess,Data loss,2,Text box,Open,P702,9734,employee,0,,2,2,1
+Excess,Data loss,2,Text box,Open,Q802,9734,employee,0,,3,3,1.18
+Excess,Data loss,2,Text box,Open,Y432,9734,employee,0,,4,4,1.16
+Excess,Data loss,2,Text box,Open,S127,9734,employee,0,,5,5,0.77
+Implicit,Data loss,2,Checkbox,Predetermined,O078,9734,employee,1,Not related,6,1,0.86
+Implicit,Data loss,2,Checkbox,Predetermined,G649,9734,employee,0,,7,2,1.66
+Implicit,Data loss,2,Checkbox,Predetermined,S101,9734,employee,0,,8,3,1.48
+Implicit,Data loss,2,Checkbox,Predetermined,A239,9734,employee,0,,9,4,1.28
+Implicit,Data loss,2,Checkbox,Predetermined,J992,9734,employee,0,,10,5,0.73
+Ambiguous,Data loss,1,Text box,Open,Q471,9734,employee,0,,11,1,0.94
+Ambiguous,Data loss,2,Combo box,Predetermined,Q471,9734,employee,0,,11,1,0.94
+Ambiguous,Data loss,1,Text box,Open,C861,9734,employee,0,,12,2,1.41
+Ambiguous,Data loss,2,Combo box,Predetermined,C861,9734,employee,0,,12,2,1.41
+Ambiguous,Data loss,1,Text box,Open,B516,9734,employee,0,,13,3,1.03
+Ambiguous,Data loss,2,Combo box,Predetermined,B516,9734,employee,0,,13,3,1.03
+Ambiguous,Data loss,1,Text box,Open,V595,9734,employee,0,,14,4,0.8
+Ambiguous,Data loss,2,Combo box,Predetermined,V595,9734,employee,0,,14,4,0.8
+Ambiguous,Data loss,1,Text box,Open,B147,9734,employee,0,,15,5,0.95
+Ambiguous,Data loss,2,Combo box,Predetermined,B147,9734,employee,0,,15,5,0.95
+Outlier,No workaround,N/A,N/A,N/A,P308,9734,open,0,,1,1,1.62
+Outlier,Functional adjustment,4,Checkbox,Predetermined,Y038,9734,open,0,,2,2,1.08
+Outlier,Functional adjustment,4,Checkbox,Predetermined,T550,9734,open,0,,3,3,0.96
+Outlier,Functional adjustment,4,Checkbox,Predetermined,B779,9734,open,0,,4,4,0.5
+Outlier,Functional adjustment,4,Checkbox,Predetermined,D675,9734,open,0,,5,5,1.04
+Excess,Functional adjustment,3,Checkbox,Predetermined,G263,9734,open,0,,6,1,6.08
+Excess,Functional adjustment,3,Text box,Open,F047,9734,open,1,Systematic,7,2,2.62
+Excess,Functional adjustment,3,Text box,Open,R854,9734,open,0,,8,3,1.33
+Excess,No workaround,N/A,N/A,N/A,P566,9734,open,0,,9,4,1.75
+Excess,No workaround,N/A,N/A,N/A,B813,9734,open,0,,10,5,0.67
+Ambiguous,No workaround,N/A,N/A,N/A,M206,9734,open,0,,11,1,2.04
+Ambiguous,No workaround,N/A,N/A,N/A,P330,9734,open,0,,12,2,0.92
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,P330,9734,open,0,,12,2,0.92
+Ambiguous,No workaround,N/A,N/A,N/A,C656,9734,open,0,,13,3,1.21
+Ambiguous,Functional adjustment,3,Checkbox,Predetermined,C656,9734,open,0,,13,3,1.21
+Ambiguous,No workaround,N/A,N/A,N/A,Q703,9734,open,0,,14,4,1.46
+Ambiguous,No workaround,N/A,N/A,N/A,Y610,9734,open,0,,15,5,1.92
+Ambiguous,Functional adjustment,3,Text box,Open,Y610,9734,open,0,,15,5,1.92

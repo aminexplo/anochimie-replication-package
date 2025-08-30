@@ -1,0 +1,27 @@
+Employee ID,Phone number,Job start date,Position title,Workplace amenities,Remote work hours per week,Uniform color
+F129,4385888147,2033-04-22,Data Scientist,"Furniture,Private office,Laptop,Floor lamp",27,green
+V962,4387930085,2030-12-05,Sales Manager,"Private office,Fan,Floor lamp,Laptop,Furniture",24,red
+X532,5140336676,2027-03-20,SENIOR Data Scientist,"Furniture,Private office,Laptop,Fan",6,white
+O557,4381685737,2029-09-16,Software Engineer,"Furniture,Private office",21,white
+F486,5145083969,In three years,Data Scientist,"Furniture,Laptop,Private office",40,blue
+H007,4380513433,2030-03-22,Designer,"Laptop,Private office,Furniture",25,red
+L177,4382208742,01/30/2032,Data Scientist,"Floor lamp,Private office",38,red
+E869,5143577707,2033-09-01,Product Manager,"Laptop,Floor lamp",8,white
+Z364,4387456278,2032-07-30,Data Scientist,"Fan,Laptop,Private office",-1,green
+B055,4380854283,2034-01-01,Product Manager,"Floor lamp,Private office,Laptop,Fan,Furniture",10,black
+H378,4386829093,2031-05-26,Designer,"Floor lamp,Furniture",-1,blue
+E239,4382837370,2034-07-03,SENIOR Software Engineer,Fan,5,black
+Z833,4387028723,2027-07-14,Product Manager,"Laptop,Fan",-1,white
+A617,4382787850,In two years,Product Manager,"Laptop,Private office,Floor lamp,Furniture",32,white
+P756,4382923012,2029-04-24,Sales Manager,"Floor lamp,Furniture",9,white
+Y034,5149157559,2025-09-19,Software Engineer,"Floor lamp,Fan",12,red
+A699,4388126116,2027-03-17,SENIOR Designer,"Fan,Furniture,Floor lamp,Private office,Laptop",1,blue
+S579,4385623063,2034-04-21,Data Scientist,Floor lamp,-1,green
+C138,5148429228,2025-06-15,Designer,Fan,16,red
+Q731,4386084088,2029-03-07,SENIOR Data Scientist,"Laptop,Fan",12,blue
+D775,5142613874,2031-07-13,Product Manager,"Private office,Floor lamp",14,red
+W618,5140170684,2033-11-24,SENIOR Product Manager,Floor lamp,36,blue
+T566,5148372657,2032-03-01,Designer,"Fan,Private office",21,green
+A047,4384532088,01/08/2031,Data Scientist,Floor lamp,29,red
+O635,4381375743,2029-07-20,Data Scientist,"Floor lamp,Fan,Laptop",-1,green
+Z636,5141823711,02/04/2031,Sales Manager,"Private office,Floor lamp,Fan,Furniture,Laptop",14,green

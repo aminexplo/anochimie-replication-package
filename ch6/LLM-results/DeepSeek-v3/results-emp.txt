@@ -1,0 +1,50 @@
+**Analysis:**  
+- The flagged anomalies indicate several issues with the employee onboarding form:  
+  - **Job Start Date:** Some dates are far in the future or entered in non-standard formats (e.g., "In three years").  
+  - **Position Title:** Users manually add "SENIOR" or "JUNIOR" prefixes, which are not part of the dropdown options.  
+  - **Workplace Amenities:** Users substitute "Fan" for "A/C" (Air Conditioning) since the latter is not an available option.  
+  - **Phone Numbers:** Multiple phone numbers are concatenated into a single field due to lack of additional fields.  
+  - **Uniform Color:** Users select arbitrary colors (e.g., hex codes) because the palette is imprecise.  
+  - **Remote Work Hours:** Negative values are entered as positive due to system constraints.  
+
+**Potential User Workarounds:**  
+- Concatenating multiple phone numbers into the single `PhoneNumber` field.  
+- Manually typing "SENIOR/JUNIOR" in the `PositionTitle` field.  
+- Substituting "Fan" for "A/C" in `WorkplaceAmenities`.  
+- Entering future dates or placeholder text (e.g., "In three years") for `JobStartDate`.  
+- Using the `OverallFeedback` field to store additional unstructured data (e.g., junior/senior status, extra phone numbers).  
+
+---  
+
+### **Feature Request or Issue Report**  
+
+**Title:** Enhance Employee Onboarding Form with Structured Inputs for Seniority, Multiple Phone Numbers, and Workplace Amenities  
+
+**Description:**  
+The current onboarding form lacks fields for critical employee details, forcing users to resort to workarounds:  
+- No distinction between "Junior" and "Senior" roles.  
+- No support for multiple phone numbers.  
+- Missing common workplace amenities (e.g., Air Conditioning).  
+- Imprecise uniform color selection (free-text instead of dropdown).  
+- No validation for future dates or relative date inputs (e.g., "In 3 years").  
+
+This leads to inconsistent data entry, manual corrections, and loss of structured information.  
+
+**Expected Behavior:**  
+1. **Position Title:**  
+   - Dropdown with options like "Junior Designer," "Senior Data Scientist," etc.  
+2. **Phone Numbers:**  
+   - Add fields for "Primary Phone," "Secondary Phone," and "Emergency Contact."  
+3. **Workplace Amenities:**  
+   - Include standard options (e.g., "A/C," "Private Office") in a multi-select dropdown.  
+4. **Uniform Color:**  
+   - Replace free-text with a predefined color palette (e.g., hex codes or named colors).  
+5. **Job Start Date:**  
+   - Allow relative dates (e.g., "Start in 3 months") or validate future dates.  
+6. **Remote Work Hours:**  
+   - Add validation to reject negative values and clarify input format.  
+
+**Impact:**  
+- Eliminates workarounds and improves data consistency.  
+- Reduces manual effort in post-processing records.  
+- Enables better filtering/reporting (e.g., "Show all Senior roles" or "Employees with A/C").

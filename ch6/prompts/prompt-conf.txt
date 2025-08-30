@@ -1,0 +1,219 @@
+You are an expert AI assistant specialized in software analysis and user behavior. Your task is to analyze anomalies in an application and determine whether they are caused by user workarounds.
+                    
+Follow this structured approach:
+                    
+Analyze the anomalies:
+Identify patterns or trends.
+Explain possible reasons why these entries were flagged as anomalies.
+
+Detect potential user workarounds:
+Determine if users bypass system constraints.
+List possible workarounds users might have used.
+
+Generate a feature request or issue report:
+If a missing feature is the cause, propose a structured feature request.
+If the issue is due to a bug or system flaw, create a detailed issue report.
+                    
+Response format:
+**Analysis:**  
+- Explain why the anomalies were flagged.  
+- Describe trends or patterns observed.  
+
+**Potential User Workarounds:**  
+- List possible workarounds users might have used.  
+
+**Feature Request or Issue Report:**  
+Title: [Concise title]  
+
+**Description:**  
+[Explain the problem and why the feature is needed.]  
+
+**Expected Behavior:**  
+[Describe the expected functionality after the fix or feature implementation.]
+
+----------
+
+[Examples begin]
+
+----------
+
+Example 1 - query:
+
+The application's database contains anomalies related to the student grading form, where users enter students' grades. Analyze why these entries have been flagged as anomalies.
+Identify whether these anomalies could be caused by user workarounds.
+If user workarounds are involved, list potential workarounds users might have employed to bypass system limitations.
+Based on your analysis, generate content suitable for creating an issue or a feature request to improve the grading form.
+Anomalies detected (the first line is the header):
+StudentID,Q1,Q2,Q3,Total,StudentFeedback,MarkedForAttention,OverallFeedback
+Q117,40,25,35,100,,No,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+A850,40,25,35,100,,Yes,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+R118,0,-9,0,-9,,No,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+V967,0,-9,0,-9,,Yes,
+B532,0,0,-8,-8,,No,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+D189,-10,0,0,-10,,No,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+D574,-6,0,0,-6,,Yes,
+V402,-5,0,0,-5,,Yes,
+C588,0,0,-3,-3,,No,"-Total grade should be calculated automatically -There is no input field for the bonus, and the total grade is limited to 100, however, some students have better grades (e.g., A850 has 103 total grade, Q117 has 102)"
+T661,0,-4,0,-4,,Yes,
+H702,-2,0,0,-2,,Yes,
+
+Example 1 - response:
+
+**Analysis:**  
+- The flagged anomalies suggest that users may be entering bonus points in fields not designed for them.  
+
+**Potential User Workarounds:**  
+- Entering bonus points in the comments section.  
+- Adjusting other grade fields to account for extra credit.  
+
+**Feature Request:**  
+Title: Add Support for Bonus Points in Grading Form  
+
+**Description:**  
+Currently, the system only allows input of grades for specific questions and the total grade. However, some students receive bonus points, and there is no designated field for entering them. To accommodate this, add an optional "Bonus Points" field so instructors can enter extra credit separately without modifying other grades.  
+
+**Expected Behavior:**  
+- Users should be able to enter bonus points separately.  
+- The total grade should reflect the sum of all grades, including bonuses.
+
+----------
+
+Example 2 - query:
+
+The application's database contains anomalies related to the student grading form, where users enter students' grades. Analyze why these entries have been flagged as anomalies.
+Identify whether these anomalies could be caused by user workarounds.
+If user workarounds are involved, list potential workarounds users might have employed to bypass system limitations.
+Based on your analysis, generate content suitable for creating an issue or a feature request to improve the grading form.
+Anomalies detected (the first line is the header):
+StudentID,Q1,Q2,Q3,Total,StudentFeedback,MarkedForAttention,OverallFeedback
+R854,3320,2081,28,81,,Yes,
+F027,40,25,35,105,Bonus:5,Yes,Total grade is consisting bonus points and I've mentioned them in feedback section.
+L075,40,25,35,105,Bonus:5,Yes,Total grade is consisting bonus points and I've mentioned them in feedback section.
+N538,40,25,35,105,Bonus:5,Yes,Total grade is consisting bonus points and I've mentioned them in feedback section.
+B137,40,25,35,103,Bonus:3,Yes,Total grade is consisting bonus points and I've mentioned them in feedback section.
+A984,40,25,35,102,Bonus:2,Yes,Total grade is consisting bonus points and I've mentioned them in feedback section.
+X424,35,23,30,92,Bonus:4,No,Total grade is consisting bonus points and I've mentioned them in feedback section.
+I268,37,22,31,94,Bonus:4,No,Total grade is consisting bonus points and I've mentioned them in feedback section.
+Y483,38,24,33,100,Bonus:5,No,Total grade is consisting bonus points and I've mentioned them in feedback section.
+V320,36,22,30,90,Bonus:2,No,Total grade is consisting bonus points and I've mentioned them in feedback section.
+W930,0,0,-7,-7,Bonus: 0,No,
+D675,0,0,-7,-7,,Yes,
+B779,0,0,-6,-6,,Yes,
+
+Example 2 - response:
+
+**Analysis:**  
+- The flagged anomalies suggest that users may be entering bonus points in fields not designed for them and repurpose a checkbox to flag these records.  
+
+**Potential User Workarounds:**  
+- Entering bonus points in the student feedback section.  
+- Repurposing a checkbox to flag the record with bonus points.  
+
+**Feature Request:**  
+Title: Add Support for Bonus Points in Grading Form  
+
+**Description:**  
+Currently, the system only allows input of grades for specific questions and the total grade. However, some students receive bonus points, and there is no designated field for entering them. To accommodate this, add an optional "Bonus Points" field so instructors can enter extra credit separately without modifying other grades.  
+
+**Expected Behavior:**  
+- Users should be able to enter bonus points separately.  
+- The total grade should reflect the sum of all grades, including bonuses.
+
+----------
+
+Example 3 - query:
+
+The application's database contains anomalies related to the student grading form, where users enter students' grades. Analyze why these entries have been flagged as anomalies.
+Identify whether these anomalies could be caused by user workarounds.
+If user workarounds are involved, list potential workarounds users might have employed to bypass system limitations.
+Based on your analysis, generate content suitable for creating an issue or a feature request to improve the grading form.
+Anomalies detected (the first line is the header):
+StudentID,Q1,Q2,Q3,Total,StudentFeedback,MarkedForAttention,OverallFeedback
+Z597,0,0,0,0,Other: The student got -9 in Q1,Yes,"- There are some negative grades for some questions.  - If the total grade is negative then it is entered as 0 in the system since it does not allow negative numbers. - Some of the records are marked as ""Needs attention"", this is the case if there is a negative mark or the grade is suspicious (more detalis are provided in the ""Other"" input)."
+V336,0,0,0,0,Other: The student got -9 in Q3,Yes,"- There are some negative grades for some questions.  - If the total grade is negative then it is entered as 0 in the system since it does not allow negative numbers. - Some of the records are marked as ""Needs attention"", this is the case if there is a negative mark or the grade is suspicious (more detalis are provided in the ""Other"" input)."
+K539,0,0,0,0,Other: The student got -5 in Q1,Yes,"- There are some negative grades for some questions.  - If the total grade is negative then it is entered as 0 in the system since it does not allow negative numbers. - Some of the records are marked as ""Needs attention"", this is the case if there is a negative mark or the grade is suspicious (more detalis are provided in the ""Other"" input)."
+E164,0,0,0,0,Other: The student got -8 in Q2.,Yes,"- There are some negative grades for some questions.  - If the total grade is negative then it is entered as 0 in the system since it does not allow negative numbers. - Some of the records are marked as ""Needs attention"", this is the case if there is a negative mark or the grade is suspicious (more detalis are provided in the ""Other"" input)."
+I932,0,0,0,0,Other: The student got -10in Q3,No,"- There are some negative grades for some questions.  - If the total grade is negative then it is entered as 0 in the system since it does not allow negative numbers. - Some of the records are marked as ""Needs attention"", this is the case if there is a negative mark or the grade is suspicious (more detalis are provided in the ""Other"" input)."
+W401,0,0,0,0,,Yes,There was not a way to enter negative grades or the one surpassing the 100 mark for extra credit.
+G067,0,0,0,0,Limited participation observed | Other: absent,No,
+I455,0,0,0,0,,Yes,There was not a way to enter negative grades or the one surpassing the 100 mark for extra credit.
+X100,0,0,0,0,Other,Yes,
+O725,0,0,0,0,,Yes,There was not a way to enter negative grades or the one surpassing the 100 mark for extra credit.
+M389,0,0,0,0,Limited participation observed | Other: absent,No,
+H689,0,0,0,0,Other: absent,No,
+T042,0,0,0,0,Other: absent,No
+
+Example 3 - response:
+
+**Analysis:**  
+- The flagged anomalies suggest that users may be using feedback boxes or repurposing checkboxes to reflect tagged records, such as marking a student as suspicious or absent when the form does not provide a dedicated field for such cases. This lack of structured tagging can lead to inconsistencies in data entry, making it difficult to track and interpret flagged records systematically. 
+
+**Potential User Workarounds:**  
+- Entering additional information in the student feedback field to indicate that the record is tagged as suspicious or that the student   
+- Repurposing an existing checkbox to indicate a status that the system does not natively support, such as "absent" or "requires review."  
+
+**Feature Request:**  
+Title: Add Support for Tagged Student Information
+
+**Description:**  
+Currently, the system does not allow instructors to provide structured information regarding a student’s status, such as exam absence or suspicious grading activity. As a result, users rely on unintended fields, leading to inconsistent data entry and difficulty in filtering or reviewing tagged records.
+                                    
+To address this, add a designated tagging system that allows users to mark student records with predefined statuses, such as: 
+- Absent (to indicate the student was not present for the exam).
+- Suspicious Activity (to flag potential grading anomalies).
+- Requires Review (to mark cases needing further investigation).
+
+**Expected Behavior:**  
+- Users should have an optional dropdown or checkbox system to tag student records with predefined statuses.
+- The tagged statuses should be filterable and searchable in the system.
+- The grading form should store and display the tagged status consistently across reports and review screens.
+
+----------
+
+[End of examples]
+
+----------
+
+The application's database contains anomalies related to the conference registration form, where users enter participants' information. Analyze why these entries have been flagged as anomalies.
+                Identify whether these anomalies could be caused by user workarounds.
+                If user workarounds are involved, list potential workarounds users might have employed to bypass system limitations.
+                Based on your analysis, generate content suitable for creating an issue or a feature request to improve the conference registration form.
+Anomalies detected (the first line is the header):
+ParticipantID,Email,MealPreference,Allergic,TopicOfInterest,WebsiteRating,ReminderDate,PreviousVersionsParticipated,OverallFeedback
+P446,ctfeiqcx@outlook.com,Pasta (veg),Yes,MDE | Software Testing | AI4SE,3,2029-06-27,1.0,Allergies not specified. Ask or don't serve them any food in case they would be allergic.
+Y174,5cn2q@yahoo.com,Meat,No,MDE | Empirical SE | AI4SE,3,2025-02-08,2.0,Special Note:  For participant  :  - D264 meal preference is : Fish - (only if wild-caught; cannot eat farmed fish temporarily) - L037 meal preference is : Pasta - with beef - V653 meal preference is : Pasta - with beef - F789 meal preference is : Pasta - without mushrooms - J707 meal preference is : Meat - Just lamb
+Y645,6oo68dv1@hotmail.com,Meat,No,SE4AI,4,2026-07-30,5.0,- Some indicated non-numbers in "Previous versions participated", I transformed them as following: * Not many => 1 * All =? 5 (given that 5 is the maximum in that column) - Some entered many topics of ineterest with this format (SE4AI | Software Testing | Empirical SE), so take this into consideration if you are planning to post-process them auto. - For E158,  Switch to Pasta (vege) if the meat is not halal - For U381, switch to Pasta (vege) if the fish is salmon or cod - Check the reminder date column (I do not understand it is used for what). it seems not correct with dates varying a lot, so please check it.
+Q063,5pyys@hotmail.com,Fish,No,Empirical SE,4,2032-11-07,5.0,nan
+T432,yepc02xe1@outlook.com,Meat,No,SE4AI | MDE | AI4SE,1,2028-07-20,0.0,Special Note:  For participant  :  - D264 meal preference is : Fish - (only if wild-caught; cannot eat farmed fish temporarily) - L037 meal preference is : Pasta - with beef - V653 meal preference is : Pasta - with beef - F789 meal preference is : Pasta - without mushrooms - J707 meal preference is : Meat - Just lamb
+I855,qkocyy7q09@yahoo.com,Pasta (veg),Yes,Software Testing,5,2029-08-24,4.0,nan
+R993,t8w066td@yahoo.com,Meat,No,Software Testing,5,2035-08-26,4.0,Some participants require special attention (e.g., Q841, needs Halal meat; Z353 is allergic to specific kinds of fish)
+I637,pkrzsgcc11@yahoo.com,Meat,No,SE4AI,5,2029-02-18,0.0,nan
+H740,np7cvrl@example.com,Fish,Yes,Software Testing,1,2029-05-08,5.0,- Some indicated non-numbers in "Previous versions participated", I transformed them as following: * Not many => 1 * All =? 5 (given that 5 is the maximum in that column) - Some entered many topics of ineterest with this format (SE4AI | Software Testing | Empirical SE), so take this into consideration if you are planning to post-process them auto. - For E158,  Switch to Pasta (vege) if the meat is not halal - For U381, switch to Pasta (vege) if the fish is salmon or cod - Check the reminder date column (I do not understand it is used for what). it seems not correct with dates varying a lot, so please check it.
+G178,si9ed5gept@example.com,Meat,No,MDE,2,2026-03-04,4.0,nan
+G686,kbvx76yfz@yahoo.com,Fish,No,SE4AI,1,2035-03-07,7.0,nan
+G319,pxzgw@yahoo.com,Fish,Yes,SE4AI,5,2034-12-12,2.0,nan
+P276,fcvxp@yahoo.com,Fish,Yes,AI4SE,4,2035-02-25,9.0,nan
+Z938,nt5t0@example.com,Pasta (veg),No,MDE,5,2026-05-21,3.0,Exceptions for meal preference: J073: Pasta - without mushrooms P615:  Meat - Just lamb Z146: Meat - Halal S553:  Meat - Halal T541: Pasta - with beef
+I393,smuwm@outlook.com,Pasta (veg),No,SE4AI,1,2032-09-20,10.0,N383 - Fish - (only if wild-caught; cannot eat farmed fish temporarily) - Empirical SE | MDE | AI4SE U476 - MDE | Software Testing | SE4AI V829 - Meat - Halal - AI4SE | Software Testing | Empirical SE O098 - MDE | Empirical SE | SE4AI Q054 - Software Testing | AI4SE | Empirical SE Q740 - Fish - (only if NOT Salmon or Cod) - AI4SE | MDE | Empirical SE W861 - AI4SE | MDE | SE4AI K743 - Pasta - with beef - SE4AI | Software Testing | MDE J599 - SE4AI | AI4SE | MDE N613 - Pasta - with beef - AI4SE | MDE | Software Testing
+K269,p05dc321@hotmail.com,Meat,No,AI4SE,1,2029-12-04,10.0,N383 - Fish - (only if wild-caught; cannot eat farmed fish temporarily) - Empirical SE | MDE | AI4SE U476 - MDE | Software Testing | SE4AI V829 - Meat - Halal - AI4SE | Software Testing | Empirical SE O098 - MDE | Empirical SE | SE4AI Q054 - Software Testing | AI4SE | Empirical SE Q740 - Fish - (only if NOT Salmon or Cod) - AI4SE | MDE | Empirical SE W861 - AI4SE | MDE | SE4AI K743 - Pasta - with beef - SE4AI | Software Testing | MDE J599 - SE4AI | AI4SE | MDE N613 - Pasta - with beef - AI4SE | MDE | Software Testing
+H796,2j1ne@gmail.com,Meat,No,MDE,1,2031-12-29,0.0,nan
+L687,ocy77f@yahoo.com,Pasta (veg),No,Empirical SE,5,2027-08-13,0.0,nan
+N930,oe8hwxs49@outlook.com,Meat,No,MDE,3,2030-07-16,1.0,For those who have mutiple topic of interest: G628: SE4AI, Empirical SE, AI4SE O673: Software Testing, SE4AI, MDE D504: AI4SE, SE4AI, MDE M649: SE4AI, Software Testing, MDE O561: Empirical SE, SE4AI, MDE
+M213,lafpyosjlm@outlook.com,Pasta (veg),No,AI4SE,1,2026-06-20,0.0,nan
+R016,6qveq@gmail.com,Fish,No,MDE,2,2028-08-11,3.0,For those who have mutiple topic of interest: G628: SE4AI, Empirical SE, AI4SE O673: Software Testing, SE4AI, MDE D504: AI4SE, SE4AI, MDE M649: SE4AI, Software Testing, MDE O561: Empirical SE, SE4AI, MDE
+V753,37j0amy@gmail.com,Pasta (veg),No,Empirical SE,1,2031-06-07,2.0,nan
+I969,1zhhmpco8g@yahoo.com,Pasta (veg),No,MDE,1,2033-11-26,4.0,nan
+K815,jolv5hi@outlook.com,Fish,No,SE4AI,1,2031-12-27,4.0,Special Note:  For participant  :  - D264 meal preference is : Fish - (only if wild-caught; cannot eat farmed fish temporarily) - L037 meal preference is : Pasta - with beef - V653 meal preference is : Pasta - with beef - F789 meal preference is : Pasta - without mushrooms - J707 meal preference is : Meat - Just lamb
+A366,kmevh3397@outlook.com,Meat,No,SE4AI,2,2026-08-09,1.0,N383 - Fish - (only if wild-caught; cannot eat farmed fish temporarily) - Empirical SE | MDE | AI4SE U476 - MDE | Software Testing | SE4AI V829 - Meat - Halal - AI4SE | Software Testing | Empirical SE O098 - MDE | Empirical SE | SE4AI Q054 - Software Testing | AI4SE | Empirical SE Q740 - Fish - (only if NOT Salmon or Cod) - AI4SE | MDE | Empirical SE W861 - AI4SE | MDE | SE4AI K743 - Pasta - with beef - SE4AI | Software Testing | MDE J599 - SE4AI | AI4SE | MDE N613 - Pasta - with beef - AI4SE | MDE | Software Testing
+Z466,y887j4q0@hotmail.com,Meat,No,SE4AI,5,2024-02-01,3.0,Exceptions for meal preference: J073: Pasta - without mushrooms P615:  Meat - Just lamb Z146: Meat - Halal S553:  Meat - Halal T541: Pasta - with beef
+S553,vukzvbm@yahoo.com,Meat,No,AI4SE | SE4AI | Empirical SE,4,2030-05-22,5.0,Exceptions for meal preference: J073: Pasta - without mushrooms P615:  Meat - Just lamb Z146: Meat - Halal S553:  Meat - Halal T541: Pasta - with beef
+N701,26vnxc@yahoo.com,Pasta (veg),No,MDE,5,2024-11-25,1.0,Special Note:  For participant  :  - D264 meal preference is : Fish - (only if wild-caught; cannot eat farmed fish temporarily) - L037 meal preference is : Pasta - with beef - V653 meal preference is : Pasta - with beef - F789 meal preference is : Pasta - without mushrooms - J707 meal preference is : Meat - Just lamb
+R748,wxhwy0zphq@gmail.com,Pasta (veg),No,SE4AI | Empirical SE | MDE,1,2026-03-10,0.0,Special Note:  For participant  :  - D264 meal preference is : Fish - (only if wild-caught; cannot eat farmed fish temporarily) - L037 meal preference is : Pasta - with beef - V653 meal preference is : Pasta - with beef - F789 meal preference is : Pasta - without mushrooms - J707 meal preference is : Meat - Just lamb
+D264,igjsaxt7@yahoo.com,Fish,No,Software Testing,5,2025-10-06,3.0,Special Note:  For participant  :  - D264 meal preference is : Fish - (only if wild-caught; cannot eat farmed fish temporarily) - L037 meal preference is : Pasta - with beef - V653 meal preference is : Pasta - with beef - F789 meal preference is : Pasta - without mushrooms - J707 meal preference is : Meat - Just lamb
+P934,mrbfgqsd0@outlook.com,Fish,No,MDE,1,2025-09-29,0.0,Dismissed information - V342: Not many (Previous versions participated) - K870: Pasta - without mushrooms (Meal preference), Empirical SE | AI4SE | SE4AI (Topic of interest) - F502: Nov-26 (Reminder date) - H977: Mar-26 (Reminder date) - B516: Almost all (Previous versions participated) - Q888: Almost all (Previous versions participated) - R970: All (Previous versions participated) - S481: Fish - (only if NOT Salmon or Cod), Empirical SE | Software Testing | AI4SE  (Topic of interest) - Q349: Dec-25 (Reminder date) - M006: Fish - (only if NOT Salmon or Cod), SE4AI | Software Testing | Empirical SE (Topic of interest) - M260: Pasta - with beef (Meal preference), AI4SE | SE4AI | MDE (Topic of interest) - P704: All (Previous versions participated) - P934: Fish - (only if NOT Salmon or Cod), MDE | SE4AI | Empirical SE (Topic of interest)
+U138,jn1y8jq@outlook.com,Pasta (veg),No,Empirical SE,2,2034-10-16,1.0,Allergies not specified. Ask or don't serve them any food in case they would be allergic.
+V339,knjii@outlook.com,Fish,No,SE4AI,5,2031-08-16,8.0,N383 - Fish - (only if wild-caught; cannot eat farmed fish temporarily) - Empirical SE | MDE | AI4SE U476 - MDE | Software Testing | SE4AI V829 - Meat - Halal - AI4SE | Software Testing | Empirical SE O098 - MDE | Empirical SE | SE4AI Q054 - Software Testing | AI4SE | Empirical SE Q740 - Fish - (only if NOT Salmon or Cod) - AI4SE | MDE | Empirical SE W861 - AI4SE | MDE | SE4AI K743 - Pasta - with beef - SE4AI | Software Testing | MDE J599 - SE4AI | AI4SE | MDE N613 - Pasta - with beef - AI4SE | MDE | Software Testing
+L037,7r2tdr@example.com,Pasta (veg),No,SE4AI,3,2026-01-10,5.0,Special Note:  For participant  :  - D264 meal preference is : Fish - (only if wild-caught; cannot eat farmed fish temporarily) - L037 meal preference is : Pasta - with beef - V653 meal preference is : Pasta - with beef - F789 meal preference is : Pasta - without mushrooms - J707 meal preference is : Meat - Just lamb
+T291,di9rv@gmail.com,Pasta (veg),Yes,Software Testing,5,2034-10-28,2.0,nan
+I676,h68f8pq5@hotmail.com,Meat,No,MDE,5,2025-10-04,0.0,nan
+Y018,hl8jwqj@yahoo.com,Fish,No,Software Testing,5,2026-10-27,nan,nan

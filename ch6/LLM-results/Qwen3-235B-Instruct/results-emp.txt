@@ -1,0 +1,39 @@
+**Analysis:**  
+- The flagged anomalies indicate that users are entering data in unintended fields due to missing functionality in the employee onboarding form. Key issues include:  
+  - **Missing A/C option** in the Workplace Amenities field, leading users to substitute it with "Fan" or note it in feedback.
+  - **Multiple phone numbers** being concatenated into the single PhoneNumber field because no additional fields exist.
+  - **Senior/Junior role prefixes** (e.g., "SENIOR Data Scientist") manually entered despite not being part of the official dropdown options.
+  - **Imprecise job start dates** (e.g., “in three years”) being converted to estimated future dates due to lack of flexible date input.
+  - **Inconsistent UniformColor selection** using hex codes from a palette, making it difficult to standardize entries.
+  - **Feedback field misuse** to record systemic data gaps (e.g., missing A/C, extra phone numbers, role levels), indicating the form lacks structured fields for this information.
+
+These entries were flagged as anomalies because they violate expected data formats (e.g., multiple numbers in phone field, non-standard position titles, invalid amenities) and use free-text feedback to compensate for missing form capabilities.
+
+**Potential User Workarounds:**  
+- Concatenating multiple phone numbers into the PhoneNumber field using separators like hyphens or pipes.  
+- Using the OverallFeedback field to list missing data (e.g., A/C requests, secondary phone numbers, role levels).  
+- Manually typing "SENIOR" or "JUNIOR" in the PositionTitle field despite it not being a dropdown option.  
+- Substituting "Fan" for "A/C" in WorkplaceAmenities to reflect cooling needs.  
+- Entering estimated future dates for imprecise start times (e.g., “in three years” → 2030).  
+- Arbitrarily selecting colors from a palette and attempting consistency across entries, despite lack of standardized options.
+
+**Feature Request:**  
+Title: Enhance Employee Onboarding Form to Support Flexible Role Levels, Multiple Contacts, and Expanded Amenities  
+
+**Description:**  
+The current employee onboarding form lacks essential fields and flexibility, forcing users to employ workarounds that compromise data integrity. Critical missing features include:
+- Support for **multiple phone numbers** per employee.
+- A dedicated option for **A/C** in WorkplaceAmenities.
+- Structured selection for **role levels** (e.g., Junior, Senior) separate from job titles.
+- Standardized **uniform color selection** via dropdown instead of freeform palette input.
+- Flexible **job start date entry**, including relative dates or placeholders for undetermined dates.
+
+These gaps result in inconsistent data entry, misuse of feedback fields, and potential loss of important employee preferences.
+
+**Expected Behavior:**  
+- Users should be able to enter **primary and secondary phone numbers** in designated fields.
+- The **WorkplaceAmenities** field should include "Air Conditioning (A/C)" as a selectable option.
+- The **PositionTitle** field should be paired with a **Role Level** dropdown (e.g., Junior, Mid-Level, Senior) to standardize role classification.
+- **UniformColor** should be selected from a predefined list of standard colors (e.g., Blue, Red, Green, Black, White) instead of an open color palette.
+- The **JobStartDate** field should support estimated or relative dates (e.g., “In 3 years”) with an option to mark as “TBD” or auto-calculate based on relative input.
+- All structured data should be captured in dedicated fields, eliminating the need to store critical information in free-text feedback.
